@@ -3,71 +3,14 @@
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatefulWidget {
-  const HomeScreen({super.key});
+  List<DataRow> tracks = [];
+  HomeScreen({super.key, required this.tracks});
 
   @override
   State<HomeScreen> createState() => _HomeScreenState();
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  List<DataRow> rows = [
-    DataRow(cells: [
-      DataCell(TextFormField(
-        decoration: InputDecoration(
-          border: InputBorder.none,
-        ),
-        initialValue: "title",
-      )),
-      DataCell(TextFormField(
-        decoration: InputDecoration(
-          border: InputBorder.none,
-        ),
-        initialValue: "title",
-      )),
-      DataCell(TextFormField(
-        decoration: InputDecoration(
-          border: InputBorder.none,
-        ),
-        initialValue: "title",
-      )),
-      DataCell(TextFormField(
-        decoration: InputDecoration(
-          border: InputBorder.none,
-        ),
-        initialValue: "title",
-      )),
-      DataCell(TextFormField(
-        decoration: InputDecoration(
-          border: InputBorder.none,
-        ),
-        initialValue: "title",
-      )),
-      DataCell(TextFormField(
-        decoration: InputDecoration(
-          border: InputBorder.none,
-        ),
-        initialValue: "title",
-      )),
-      DataCell(TextFormField(
-        decoration: InputDecoration(
-          border: InputBorder.none,
-        ),
-        initialValue: "title",
-      )),
-      DataCell(Text(
-        "date created",
-      )),
-      DataCell(Text(
-        "date modified",
-      )),
-      DataCell(TextFormField(
-        decoration: InputDecoration(
-          border: InputBorder.none,
-        ),
-        initialValue: "title",
-      )),
-    ])
-  ];
   List<DataColumn> cols = [
     DataColumn(label: Text("Title")),
     DataColumn(label: Text("Artist/s")),
@@ -96,12 +39,16 @@ class _HomeScreenState extends State<HomeScreen> {
           child: SingleChildScrollView(
               child: Padding(
             padding: const EdgeInsets.all(12.0),
-            child: DataTable(
-              columns: cols,
-              rows: rows,
-              border: TableBorder.all(
-                  color: Colors.grey,
-                  borderRadius: BorderRadius.all(Radius.circular(12))),
+            child: Container(
+              width: MediaQuery.of(context).size.width,
+              child: DataTable(
+                columns: cols,
+                rows: widget.tracks,
+                headingRowColor: WidgetStatePropertyAll(Colors.amber),
+                dataRowMinHeight: 12,
+                dividerThickness: 1,
+                showBottomBorder: true,
+              ),
             ),
           )),
         ));
