@@ -1,5 +1,4 @@
 // ignore_for_file: prefer_const_constructors
-import 'package:editable/editable.dart';
 
 import 'package:flutter/material.dart';
 
@@ -14,24 +13,45 @@ class _HomeScreenState extends State<HomeScreen> {
   List<DataRow> rows = [
     DataRow(cells: [
       DataCell(TextFormField(
+        decoration: InputDecoration(
+          border: InputBorder.none,
+        ),
         initialValue: "title",
       )),
       DataCell(TextFormField(
+        decoration: InputDecoration(
+          border: InputBorder.none,
+        ),
         initialValue: "title",
       )),
       DataCell(TextFormField(
+        decoration: InputDecoration(
+          border: InputBorder.none,
+        ),
         initialValue: "title",
       )),
       DataCell(TextFormField(
+        decoration: InputDecoration(
+          border: InputBorder.none,
+        ),
         initialValue: "title",
       )),
       DataCell(TextFormField(
+        decoration: InputDecoration(
+          border: InputBorder.none,
+        ),
         initialValue: "title",
       )),
       DataCell(TextFormField(
+        decoration: InputDecoration(
+          border: InputBorder.none,
+        ),
         initialValue: "title",
       )),
       DataCell(TextFormField(
+        decoration: InputDecoration(
+          border: InputBorder.none,
+        ),
         initialValue: "title",
       )),
       DataCell(Text(
@@ -41,6 +61,9 @@ class _HomeScreenState extends State<HomeScreen> {
         "date modified",
       )),
       DataCell(TextFormField(
+        decoration: InputDecoration(
+          border: InputBorder.none,
+        ),
         initialValue: "title",
       )),
     ])
@@ -61,19 +84,26 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: PreferredSize(
-        preferredSize: Size.fromHeight(32),
-        child: AppBar(
-          elevation: 1,
-          backgroundColor: Color.fromARGB(255, 249, 119, 55),
+        appBar: PreferredSize(
+          preferredSize: Size.fromHeight(32),
+          child: AppBar(
+            elevation: 1,
+            backgroundColor: Color.fromARGB(255, 249, 119, 55),
+          ),
         ),
-      ),
-      body: Row(children: [
-        DataTable(
-          columns: cols,
-          rows: rows,
-        )
-      ]),
-    );
+        body: SingleChildScrollView(
+          scrollDirection: Axis.horizontal,
+          child: SingleChildScrollView(
+              child: Padding(
+            padding: const EdgeInsets.all(12.0),
+            child: DataTable(
+              columns: cols,
+              rows: rows,
+              border: TableBorder.all(
+                  color: Colors.grey,
+                  borderRadius: BorderRadius.all(Radius.circular(12))),
+            ),
+          )),
+        ));
   }
 }
