@@ -1,79 +1,73 @@
 // ignore_for_file: prefer_const_constructors
-import 'package:editable/editable.dart';
 
+import 'package:ammp/widgets/get_tracksWIP.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatefulWidget {
-  const HomeScreen({super.key});
+  List<DataRow> tracks = [];
+  HomeScreen({super.key, required this.tracks});
 
   @override
   State<HomeScreen> createState() => _HomeScreenState();
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  List<DataRow> rows = [
-    DataRow(cells: [
-      DataCell(TextFormField(
-        initialValue: "title",
-      )),
-      DataCell(TextFormField(
-        initialValue: "title",
-      )),
-      DataCell(TextFormField(
-        initialValue: "title",
-      )),
-      DataCell(TextFormField(
-        initialValue: "title",
-      )),
-      DataCell(TextFormField(
-        initialValue: "title",
-      )),
-      DataCell(TextFormField(
-        initialValue: "title",
-      )),
-      DataCell(TextFormField(
-        initialValue: "title",
-      )),
-      DataCell(Text(
-        "date created",
-      )),
-      DataCell(Text(
-        "date modified",
-      )),
-      DataCell(TextFormField(
-        initialValue: "title",
-      )),
-    ])
-  ];
-  List<DataColumn> cols = [
-    DataColumn(label: Text("Title")),
-    DataColumn(label: Text("Artist/s")),
-    DataColumn(label: Text("Album")),
-    DataColumn(label: Text("Track No.")),
-    DataColumn(label: Text("Genre")),
-    DataColumn(label: Text("Pace")),
-    DataColumn(label: Text("Year")),
-    DataColumn(label: Text("Date Created")),
-    DataColumn(label: Text("Date Modified")),
-    DataColumn(label: Text("Cover Link")),
-  ];
-
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: PreferredSize(
-        preferredSize: Size.fromHeight(32),
-        child: AppBar(
-          elevation: 1,
-          backgroundColor: Color.fromARGB(255, 249, 119, 55),
-        ),
-      ),
-      body: Row(children: [
-        DataTable(
-          columns: cols,
-          rows: rows,
-        )
-      ]),
+    List<Map> trackCols = [
+      {"col": "Title", "width": 0.2},
+      {"col": "Artist/s", "width": 0.2},
+      {"col": "Album", "width": 0.1},
+      {"col": "Track No.", "width": 0.05},
+      {"col": "Genre", "width": 0.05},
+      {"col": "Pace", "width": 0.03},
+      {"col": "Energy", "width": 0.035},
+      {"col": "Year", "width": 0.025},
+      {"col": "Date Created", "width": 0.07},
+      {"col": "Date Modified", "width": 0.075},
+      {"col": "Cover Link", "width": 0.3},
+    ];
+    List<DataColumn> cols = [];
+
+    trackCols.forEach(
+      (element) {
+        cols.add(get_cols(element["col"], element["width"], context));
+      },
     );
+
+    return Scaffold(
+        appBar: PreferredSize(
+          preferredSize: Size.fromHeight(32),
+          child: AppBar(
+            elevation: 1,
+            backgroundColor: Color.fromARGB(255, 249, 119, 55),
+          ),
+        ),
+        body: Center(
+          child: SingleChildScrollView(
+            scrollDirection: Axis.horizontal,
+            child: SingleChildScrollView(
+                child: Padding(
+              padding: const EdgeInsets.all(12.0),
+              child: Container(
+                clipBehavior: Clip.antiAlias,
+                decoration: BoxDecoration(
+                    border: Border.all(width: 0),
+                    borderRadius: BorderRadius.all(Radius.circular(15))),
+                child: DataTable(
+                  columns: cols,
+                  rows: widget.tracks,
+                  dataRowMinHeight: 12,
+                  dividerThickness: 1,
+                  showBottomBorder: true,
+                  headingRowColor:
+                      WidgetStatePropertyAll(Color.fromARGB(255, 247, 127, 67)),
+                  headingRowHeight: 28,
+                  // TODO: implement checkbox features
+                ),
+              ),
+            )),
+          ),
+        ));
   }
 }
