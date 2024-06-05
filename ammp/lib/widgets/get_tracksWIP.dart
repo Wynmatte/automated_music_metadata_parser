@@ -46,6 +46,12 @@ List<DataRow> getTracks(dynamic json) {
         ),
         initialValue: "title",
       )),
+      DataCell(TextFormField(
+        decoration: InputDecoration(
+          border: InputBorder.none,
+        ),
+        initialValue: "title",
+      )),
       DataCell(Text(
         "date created",
       )),
@@ -63,4 +69,16 @@ List<DataRow> getTracks(dynamic json) {
   }
 
   return row;
+}
+
+DataColumn get_cols(String track_cols, double width, BuildContext context) {
+  return DataColumn(
+    label: Container(
+      width: MediaQuery.of(context).size.width * width,
+      child: Text(
+        track_cols,
+        textAlign: TextAlign.center,
+      ),
+    ),
+  );
 }
