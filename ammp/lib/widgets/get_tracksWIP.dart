@@ -17,6 +17,9 @@ List<DataRow> getTracks(dynamic json) {
           border: InputBorder.none,
         ),
         initialValue: track["title"],
+        onSaved: (newValue) {
+          track["title"] = newValue;
+        },
       )),
       DataCell(TextFormField(
         decoration: InputDecoration(

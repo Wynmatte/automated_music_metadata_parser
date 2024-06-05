@@ -16,7 +16,6 @@ Future<void> main() async {
   }
 
   await readJson();
-  print(data);
 
   List<DataRow> tracks = getTracks(data);
   runApp(MaterialApp(
