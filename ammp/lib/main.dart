@@ -6,8 +6,6 @@ import 'package:ammp/home.dart';
 import 'package:flutter/services.dart';
 import 'dart:convert';
 
-
-
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   List<dynamic> data = [];
@@ -19,10 +17,12 @@ Future<void> main() async {
 
   await readJson();
 
+
   List<DataRow> tracks = getTracks(data);
   runApp(MaterialApp(
     title: "AMMP",
     // initialRoute: '/loadingScreen',
     home: HomeScreen(tracks: tracks),
   ));
+
 }
