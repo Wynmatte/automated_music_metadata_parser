@@ -3,19 +3,19 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'example.dart' as example;
+
+List<dynamic> outputJson = [];
 
 List<DataRow> getTracks(List<dynamic> json) {
   List<DataRow> row = [];
 
-  json.forEach((track) {
-    print("hello");
-    final tracks = example.Track.fromJson(track);
+  for (Map<String, dynamic> track in json) {
     String date_created =
         (track["date_created"] != null) ? track["date_created"] : "None";
     String date_modified =
         (track["date_modified"] != null) ? track["date_modified"] : "None";
 
+    // TODO: FIX REPETITIVE CODE BELOW
     row.add(DataRow(onSelectChanged: (value) {}, cells: [
       DataCell(TextFormField(
         decoration: InputDecoration(
@@ -25,8 +25,8 @@ List<DataRow> getTracks(List<dynamic> json) {
       )),
       DataCell(TextFormField(
         onChanged: (value) {
-          tracks.artist_name = value;
-          var map = tracks.toJson();
+          track['artist_name'] = value;
+          outputJson = json;
         },
         decoration: InputDecoration(
           border: InputBorder.none,
@@ -82,7 +82,7 @@ List<DataRow> getTracks(List<dynamic> json) {
         initialValue: track["album_cover"],
       )),
     ]));
-  });
+  }
 
   return row;
 }
