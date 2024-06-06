@@ -3,11 +3,23 @@
 import 'package:ammp/widgets/get_tracksWIP.dart';
 import 'package:flutter/material.dart';
 import 'package:ammp/home.dart';
+import 'package:flutter/services.dart';
+import 'dart:convert';
 
-void main() {
-  // TODO: gets tracks from json, placeholder list for now
-  List<DataRow> tracks =
-      getTracks([1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 1, 1, 1, 1, 1, 1, 1]);
+
+
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  List<dynamic> data = [];
+  
+  Future<void> readJson() async {
+    final String response = await rootBundle.loadString("assets/tracks.json");
+    data = await jsonDecode(response);
+  }
+
+  await readJson();
+
+  List<DataRow> tracks = getTracks(data);
   runApp(MaterialApp(
     title: "AMMP",
     // initialRoute: '/loadingScreen',

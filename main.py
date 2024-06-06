@@ -17,7 +17,10 @@ cur.execute("SELECT * FROM tracks")
 rows = cur.fetchall()
 tracks_data = []
 
+ flutter-to-json
+
 """Assign SQL to JSON"""
+ main
 for row in rows:
     track_id = str(row["id"])
     # Artists
@@ -51,8 +54,19 @@ for row in rows:
     tracks_data.append(row)
 
 
+ flutter-to-json
+
+json = json.dumps(tracks_data, indent=4)
+print(json)
+
+with open("ammp/assets/tracks.json", "w") as output:
+    output.write(json)
+
+'''TODO: JSON TO MYSQL'''
+
     # print(json.dumps(rows, sort_keys=True, indent=4, separators=(',', ': '), default=str))
 
 json = json.dumps(tracks_data)
 print(json)
 
+ main
