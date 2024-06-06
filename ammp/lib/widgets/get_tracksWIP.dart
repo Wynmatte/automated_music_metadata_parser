@@ -5,10 +5,11 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'example.dart' as example;
 
-List<DataRow> getTracks(dynamic json) {
+List<DataRow> getTracks(List<dynamic> json) {
   List<DataRow> row = [];
 
-  for (Map<String, dynamic> track in json) {
+  json.forEach((track) {
+    print("hello");
     final tracks = example.Track.fromJson(track);
     String date_created =
         (track["date_created"] != null) ? track["date_created"] : "None";
@@ -26,7 +27,6 @@ List<DataRow> getTracks(dynamic json) {
         onChanged: (value) {
           tracks.artist_name = value;
           var map = tracks.toJson();
-          print(jsonEncode(map));
         },
         decoration: InputDecoration(
           border: InputBorder.none,
@@ -82,7 +82,7 @@ List<DataRow> getTracks(dynamic json) {
         initialValue: track["album_cover"],
       )),
     ]));
-  }
+  });
 
   return row;
 }
