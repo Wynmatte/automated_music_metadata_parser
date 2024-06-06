@@ -17,11 +17,13 @@ List<DataRow> getTracks(dynamic json) {
           border: InputBorder.none,
         ),
         initialValue: track["title"],
-        onSaved: (newValue) {
-          track["title"] = newValue;
-        },
+        onFieldSubmitted: (value) {},
       )),
       DataCell(TextFormField(
+        onChanged: (value) {
+          track["artist_name"] = value;
+          print(track["artist_name"]);
+        },
         decoration: InputDecoration(
           border: InputBorder.none,
         ),
@@ -76,7 +78,6 @@ List<DataRow> getTracks(dynamic json) {
         initialValue: track["album_cover"],
       )),
     ]));
-    print(", ${json}}\n");
   }
 
   return row;
