@@ -15,7 +15,7 @@ List<DataRow> getTracks(List<dynamic> json) {
     String date_modified =
         (track["date_modified"] != null) ? track["date_modified"] : "None";
 
-    // TODO: FIX REPETITIVE CODE BELOW  
+    // TODO: FIX REPETITIVE CODE BELOW
     row.add(DataRow(onSelectChanged: (value) {}, cells: [
       DataCell(TextFormField(
         decoration: InputDecoration(
@@ -25,7 +25,7 @@ List<DataRow> getTracks(List<dynamic> json) {
       )),
       DataCell(TextFormField(
         onChanged: (value) {
-          track['artist_name'] = value;      
+          track['artist_name'] = value;
           outputJson = json;
         },
         decoration: InputDecoration(
