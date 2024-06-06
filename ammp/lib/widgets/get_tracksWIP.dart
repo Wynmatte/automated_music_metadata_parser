@@ -1,50 +1,67 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
 
 List<DataRow> getTracks(dynamic json) {
   List<DataRow> row = [];
-  for (int i in json) {
+
+  for (Map<String, dynamic> track in json) {
+    String date_created =
+        (track["date_created"] != null) ? track["date_created"] : "None";
+    String date_modified =
+        (track["date_modified"] != null) ? track["date_modified"] : "None";
+
     row.add(DataRow(onSelectChanged: (value) {}, cells: [
       DataCell(TextFormField(
         decoration: InputDecoration(
           border: InputBorder.none,
         ),
-        initialValue: "title",
+        initialValue: track["title"],
+        onSaved: (newValue) {
+          track["title"] = newValue;
+        },
       )),
       DataCell(TextFormField(
         decoration: InputDecoration(
           border: InputBorder.none,
         ),
-        initialValue: "title",
+        initialValue: track["artist_name"],
       )),
       DataCell(TextFormField(
         decoration: InputDecoration(
           border: InputBorder.none,
         ),
-        initialValue: "title",
+        initialValue: track["album_name"],
       )),
       DataCell(TextFormField(
         decoration: InputDecoration(
           border: InputBorder.none,
         ),
-        initialValue: "title",
+        initialValue: track["track_number"],
       )),
       DataCell(TextFormField(
         decoration: InputDecoration(
           border: InputBorder.none,
         ),
-        initialValue: "title",
+        initialValue: track["genre"],
       )),
       DataCell(TextFormField(
         decoration: InputDecoration(
           border: InputBorder.none,
         ),
-        initialValue: "title",
+        initialValue: track["pace"],
       )),
       DataCell(TextFormField(
         decoration: InputDecoration(
           border: InputBorder.none,
         ),
-        initialValue: "title",
+        initialValue: track["energy"],
+      )),
+      DataCell(TextFormField(
+        decoration: InputDecoration(
+          border: InputBorder.none,
+        ),
+        initialValue: track["track_year"],
       )),
       DataCell(TextFormField(
         decoration: InputDecoration(
@@ -53,16 +70,16 @@ List<DataRow> getTracks(dynamic json) {
         initialValue: "title",
       )),
       DataCell(Text(
-        "date created",
+        date_created,
       )),
       DataCell(Text(
-        "date modified",
+        date_modified,
       )),
       DataCell(TextFormField(
         decoration: InputDecoration(
           border: InputBorder.none,
         ),
-        initialValue: "title",
+        initialValue: track["album_cover"],
       )),
     ]));
     print(", ${json}}\n");

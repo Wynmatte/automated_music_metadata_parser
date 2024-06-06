@@ -1,0 +1,3926 @@
+[
+{
+ "id":1,
+ "productName":"Build up & grinding oil seal seat",
+ "category":"Crankshaft",
+ "sizes":{
+  "Bantam":{
+   "B-1":358
+   }
+  }
+ },
+{
+ "id":2,
+ "productName":"Build up & relocate dowel pin hole",
+ "category":"Crankshaft",
+ "sizes":{
+  "Special":{
+   "A":360
+   }
+  }
+ },
+{
+ "id":3,
+ "productName":"Check-up alignment only",
+ "category":"Crankshaft",
+ "sizes":{
+  "Bantam":{
+   "Ω":100
+   },
+  "Light 4 Cyl":{
+   "D":150,
+   "E":150,
+   "Ω":150
+   },
+  "Medium":{
+   "F":180,
+   "C":120,
+   "Ω":200
+   },
+  "Light Heavy":{
+   "H":180,
+   "Ω":350
+   },
+  "V-Type":{
+   "G":180,
+   "Ω":400
+   },
+  "Medium Heavy":{
+   "I":350,
+   "J":500,
+   "Ω":1500
+   },
+  "Heavy":{
+   "K":600,
+   "Ω":2500
+   },
+  "Special":{
+   "A":150,
+   "Ω":100
+   }
+  }
+ },
+{
+ "id":4,
+ "productName":"Conrod journal regrind (per journal)",
+ "category":"Crankshaft",
+ "sizes":{
+  "V-Type":{
+   "G":360
+   }
+  }
+ },
+{
+ "id":5,
+ "productName":"Fabricate spindle shaft differential housing",
+ "category":"Crankshaft",
+ "sizes":{
+  "Light 4 Cyl":{
+   "D":2400,
+   "E":2600,
+   "Ω":2900
+   },
+  "Medium":{
+   "F":3500,
+   "Ω":3860
+   },
+  "Light Heavy":{
+   "H":3800
+   },
+  "V-Type":{
+   "G":3800
+   }
+  }
+ },
+{
+ "id":6,
+ "productName":"Machining sleeve outside",
+ "category":"Crankshaft",
+ "sizes":{
+  "Bantam":{
+   "B-1":88
+   },
+  "Light 4 Cyl":{
+   "E":154,
+   "Ω":164
+   }
+  }
+ },
+{
+ "id":7,
+ "productName":"Magnetic cracktest",
+ "category":"Crankshaft",
+ "sizes":{
+  "Bantam":{
+   "B":240,
+   "B-1":280
+   },
+  "Light 4 Cyl":{
+   "D":320,
+   "E":350
+   },
+  "Medium":{
+   "F":420,
+   "Ω":470
+   },
+  "Light Heavy":{
+   "H":528
+   },
+  "V-Type":{
+   "G":480
+   },
+  "Medium Heavy":{
+   "I":580,
+   "J":620
+   },
+  "Heavy":{
+   "K":650,
+   "Ω":737
+   }
+  }
+ },
+{
+ "id":8,
+ "productName":"Oil seal build-up & grinding (with materials)",
+ "category":"Crankshaft",
+ "sizes":{
+  "Bantam":{
+   "B":270,
+   "B-1":325,
+   "Ω":600
+   },
+  "Light 4 Cyl":{
+   "D":480,
+   "E":480,
+   "Ω":650
+   },
+  "Medium":{
+   "F":720,
+   "C":420,
+   "Ω":700
+   },
+  "Light Heavy":{
+   "H":850,
+   "Ω":850
+   },
+  "V-Type":{
+   "G":850,
+   "Ω":1000
+   },
+  "Medium Heavy":{
+   "I":450,
+   "J":1500,
+   "Ω":1350
+   },
+  "Heavy":{
+   "K":1800,
+   "Ω":9869
+   },
+  "Special":{
+   "Minica":180
+   }
+  }
+ },
+{
+ "id":9,
+ "productName":"Polishing (per journal)",
+ "category":"Crankshaft",
+ "sizes":{
+  "Bantam":{
+   "B":30,
+   "B-1":36,
+   "Ω":75
+   },
+  "Light 4 Cyl":{
+   "D":30,
+   "E":30,
+   "Ω":75
+   },
+  "Medium":{
+   "F":50,
+   "C":30,
+   "Ω":75
+   },
+  "Light Heavy":{
+   "H":70,
+   "Ω":90
+   },
+  "V-Type":{
+   "G":70,
+   "Ω":130
+   },
+  "Medium Heavy":{
+   "I":120,
+   "J":150,
+   "Ω":200
+   },
+  "Heavy":{
+   "K":240,
+   "Ω":325
+   },
+  "Special":{
+   "A":25,
+   "Minica":25,
+   "Ω":100
+   },
+  "etc":{
+   "etc":100
+   }
+  }
+ },
+{
+ "id":10,
+ "productName":"Press out\/ press in & align crankshaft",
+ "category":"Crankshaft",
+ "sizes":{
+  "Special":{
+   "Minica":240,
+   "Cycle":60
+   }
+  }
+ },
+{
+ "id":11,
+ "productName":"Regrinding (one journal only)",
+ "category":"Crankshaft",
+ "sizes":{
+  "Bantam":{
+   "B":90,
+   "B-1":110,
+   "Ω":200
+   },
+  "Light 4 Cyl":{
+   "D":140,
+   "E":145,
+   "Ω":200
+   },
+  "Medium":{
+   "F":180,
+   "C":120,
+   "Ω":300
+   },
+  "Light Heavy":{
+   "H":238,
+   "Ω":450
+   },
+  "V-Type":{
+   "G":360,
+   "Ω":480
+   },
+  "Medium Heavy":{
+   "I":600,
+   "J":900,
+   "Ω":800
+   },
+  "Heavy":{
+   "K":1200,
+   "Ω":1800
+   },
+  "Special":{
+   "A":130,
+   "Ω":220
+   },
+  "etc":{
+   "etc":220
+   }
+  }
+ },
+{
+ "id":12,
+ "productName":"Regrinding (per journal)",
+ "category":"Crankshaft",
+ "sizes":{
+  "Bantam":{
+   "B":45,
+   "B-1":54,
+   "Ω":85
+   },
+  "Light 4 Cyl":{
+   "D":70,
+   "E":72,
+   "Ω":100
+   },
+  "Medium":{
+   "F":90,
+   "C":65,
+   "Ω":140
+   },
+  "Light Heavy":{
+   "H":120,
+   "Ω":150
+   },
+  "V-Type":{
+   "G":180,
+   "Ω":250
+   },
+  "Medium Heavy":{
+   "I":300,
+   "J":450,
+   "Ω":560
+   },
+  "Heavy":{
+   "K":600,
+   "Ω":1200
+   },
+  "Special":{
+   "A":90,
+   "Starter":120,
+   "Fixed":130,
+   "Minica":45,
+   "Ω":170
+   },
+  "etc":{
+   "etc":170
+   }
+  }
+ },
+{
+ "id":13,
+ "productName":"Straightening (Owner's Risk)",
+ "category":"Crankshaft",
+ "sizes":{
+  "Bantam":{
+   "B":154,
+   "B-1":220,
+   "Ω":450
+   },
+  "Light 4 Cyl":{
+   "D":315,
+   "E":900,
+   "Ω":500
+   },
+  "Medium":{
+   "F":900,
+   "C":270,
+   "Ω":720
+   },
+  "Light Heavy":{
+   "H":540,
+   "Ω":800
+   },
+  "V-Type":{
+   "G":1000,
+   "Ω":900
+   },
+  "Medium Heavy":{
+   "I":1500,
+   "J":1800,
+   "Ω":2500
+   },
+  "Heavy":{
+   "K":2400,
+   "Ω":3500
+   },
+  "Special":{
+   "A":150
+   }
+  }
+ },
+{
+ "id":14,
+ "productName":"Supply sleeve",
+ "category":"Crankshaft",
+ "sizes":{
+  "Bantam":{
+   "B-1":495
+   }
+  }
+ },
+{
+ "id":15,
+ "productName":"Thrust build-up & machining",
+ "category":"Crankshaft",
+ "sizes":{
+  "Bantam":{
+   "B":270,
+   "B-1":325,
+   "Ω":500
+   },
+  "Light 4 Cyl":{
+   "D":420,
+   "E":480,
+   "Ω":510
+   },
+  "Medium":{
+   "F":720,
+   "C":360,
+   "Ω":650
+   },
+  "Light Heavy":{
+   "H":540,
+   "Ω":700
+   },
+  "V-Type":{
+   "G":850,
+   "Ω":800
+   },
+  "Medium Heavy":{
+   "J":1500
+   },
+  "Heavy":{
+   "K":1800,
+   "Ω":2500
+   },
+  "Special":{
+   "Minica":180,
+   "Ω":650
+   }
+  }
+ },
+{
+ "id":16,
+ "productName":"Thrust machining with spacer",
+ "category":"Crankshaft",
+ "sizes":{
+  "Bantam":{
+   "B":180,
+   "Ω":400
+   },
+  "Light 4 Cyl":{
+   "Ω":410
+   },
+  "Medium":{
+   "Ω":410
+   }
+  }
+ },
+{
+ "id":17,
+ "productName":"Thrust side machining\/ grinding",
+ "category":"Crankshaft",
+ "sizes":{
+  "Bantam":{
+   "B":90,
+   "B-1":120,
+   "Ω":135
+   },
+  "Light 4 Cyl":{
+   "D":135,
+   "E":150,
+   "Ω":165
+   },
+  "Medium":{
+   "F":180,
+   "Ω":165
+   },
+  "Light Heavy":{
+   "H":240,
+   "Ω":220
+   },
+  "V-Type":{
+   "G":480,
+   "Ω":230
+   },
+  "Medium Heavy":{
+   "I":608,
+   "J":550
+   },
+  "Heavy":{
+   "K":620,
+   "Ω":697
+   }
+  }
+ },
+{
+ "id":18,
+ "productName":"Thrust washer\/bearing rebabbit & resize",
+ "category":"Crankshaft",
+ "sizes":{
+  "Bantam":{
+   "B":180,
+   "B-1":240,
+   "Ω":250
+   },
+  "Light 4 Cyl":{
+   "D":290,
+   "E":300,
+   "Ω":260
+   },
+  "Medium":{
+   "F":320,
+   "C":240,
+   "Ω":350
+   },
+  "Light Heavy":{
+   "H":520,
+   "Ω":450
+   },
+  "V-Type":{
+   "G":520,
+   "Ω":500
+   },
+  "Medium Heavy":{
+   "J":792,
+   "Ω":901
+   },
+  "Special":{
+   "Ω":320
+   }
+  }
+ },
+{
+ "id":19,
+ "productName":"Convert pulley: 4DR5",
+ "category":"Crankshaft",
+ "sizes":{
+  "Light 4 Cyl":{
+   "E":792,
+   "Ω":900
+   }
+  }
+ },
+{
+ "id":20,
+ "productName":"Convert pulley: 4BA1",
+ "category":"Crankshaft",
+ "sizes":{
+  "Light 4 Cyl":{
+   "E":720,
+   "Ω":900
+   }
+  }
+ },
+{
+ "id":21,
+ "productName":"Press out\/ press in crankshaft gear",
+ "category":"Crankshaft",
+ "sizes":{
+  "Light 4 Cyl":{
+   "E":242
+   }
+  }
+ },
+{
+ "id":22,
+ "productName":"Rebuild crankshaft journal: All",
+ "category":"Crankshaft",
+ "sizes":{
+  "Light 4 Cyl":{
+   "E":4500
+   },
+  "Medium":{
+   "F":22000,
+   "Ω":24780
+   },
+  "Light Heavy":{
+   "H":26000,
+   "Ω":26000
+   },
+  "V-Type":{
+   "G":26000
+   },
+  "Heavy":{
+   "K":5500
+   },
+  "Special":{
+   "Minica":1920
+   }
+  }
+ },
+{
+ "id":23,
+ "productName":"Rebuild crankshaft journal: One only",
+ "category":"Crankshaft",
+ "sizes":{
+  "Light 4 Cyl":{
+   "E":590
+   },
+  "Medium":{
+   "F":2800
+   },
+  "Light Heavy":{
+   "Ω":1800
+   },
+  "V-Type":{
+   "G":1800,
+   "Ω":1900
+   },
+  "Medium Heavy":{
+   "J":5200,
+   "Ω":5892
+   },
+  "Heavy":{
+   "K":1850
+   }
+  }
+ },
+{
+ "id":24,
+ "productName":"Fabricate thrust washer: 1 side",
+ "category":"Crankshaft",
+ "sizes":{
+  "Bantam":{
+   "B":480
+   },
+  "Medium":{
+   "F":1600,
+   "Ω":1790
+   },
+  "Light Heavy":{
+   "H":850
+   },
+  "Medium Heavy":{
+   "I":1300,
+   "J":1450,
+   "Ω":1480
+   }
+  }
+ },
+{
+ "id":25,
+ "productName":"Fabricate thrust washer, 3 pcs: From D500 to 6BB1",
+ "category":"Crankshaft",
+ "sizes":{
+  "Medium":{
+   "F":2400,
+   "Ω":2700
+   }
+  }
+ },
+{
+ "id":26,
+ "productName":"Adjust crankshaft clearance",
+ "category":"Crankshaft",
+ "sizes":{
+  "V-Type":{
+   "G":605
+   }
+  }
+ },
+{
+ "id":27,
+ "productName":"Fabricate dowel (crankshaft)",
+ "category":"Crankshaft",
+ "sizes":{
+  "Special":{
+   "A":66
+   }
+  }
+ },
+{
+ "id":28,
+ "productName":"Fabricate thrust bearing",
+ "category":"Crankshaft",
+ "sizes":{
+  "Medium":{
+   "F":720,
+   "Ω":795
+   }
+  }
+ },
+{
+ "id":29,
+ "productName":"Grinding crankshaft pulley seat",
+ "category":"Crankshaft",
+ "sizes":{
+  "Light Heavy":{
+   "H":198
+   }
+  }
+ },
+{
+ "id":30,
+ "productName":"Machining pulley inside",
+ "category":"Crankshaft",
+ "sizes":{
+  "Light Heavy":{
+   "H":176
+   }
+  }
+ },
+{
+ "id":31,
+ "productName":"Polishing oil seal seat",
+ "category":"Crankshaft",
+ "sizes":{
+  "Medium Heavy":{
+   "I":154
+   }
+  }
+ },
+{
+ "id":32,
+ "productName":"Pull out crankshaft pulley",
+ "category":"Crankshaft",
+ "sizes":{
+  "Medium":{
+   "F":162,
+   "Ω":380
+   }
+  }
+ },
+{
+ "id":33,
+ "productName":"Sleeving pulley oil seal seat",
+ "category":"Crankshaft",
+ "sizes":{
+  "Medium Heavy":{
+   "I":480,
+   "Ω":540
+   }
+  }
+ },
+{
+ "id":34,
+ "productName":"Build up bushing seat",
+ "category":"Connecting Rod",
+ "sizes":{
+  "Light 4 Cyl":{
+   "D":295,
+   "E":285
+   },
+  "Medium":{
+   "F":480,
+   "C":300
+   },
+  "Light Heavy":{
+   "H":490
+   },
+  "Medium Heavy":{
+   "I":733
+   }
+  }
+ },
+{
+ "id":35,
+ "productName":"Build up\/ machining conrod arm",
+ "category":"Connecting Rod",
+ "sizes":{
+  "Medium":{
+   "F":792
+   },
+  "Medium Heavy":{
+   "I":1850,
+   "Ω":2085
+   }
+  }
+ },
+{
+ "id":36,
+ "productName":"Check up alignment conrod arm",
+ "category":"Connecting Rod",
+ "sizes":{
+  "Bantam":{
+   "B-1":28
+   },
+  "Light 4 Cyl":{
+   "E":30
+   },
+  "Medium":{
+   "F":40,
+   "Ω":40
+   },
+  "V-Type":{
+   "G":60
+   },
+  "Medium Heavy":{
+   "J":120,
+   "Ω":120
+   },
+  "Special":{
+   "A":22
+   }
+  }
+ },
+{
+ "id":37,
+ "productName":"Check-up & fitting (per arm)",
+ "category":"Connecting Rod",
+ "sizes":{
+  "Bantam":{
+   "B":30,
+   "B-1":36,
+   "Ω":30
+   },
+  "Light 4 Cyl":{
+   "D":45,
+   "E":60,
+   "Ω":30
+   },
+  "Medium":{
+   "F":50,
+   "C":30,
+   "Ω":30
+   },
+  "Light Heavy":{
+   "H":60,
+   "Ω":40
+   },
+  "V-Type":{
+   "G":75,
+   "Ω":60
+   },
+  "Medium Heavy":{
+   "I":120,
+   "J":180,
+   "Ω":100
+   },
+  "Heavy":{
+   "K":200,
+   "Ω":150
+   },
+  "Special":{
+   "A":30,
+   "Ω":50
+   },
+  "etc":{
+   "etc":50
+   }
+  }
+ },
+{
+ "id":38,
+ "productName":"Connecting rod resize (aluminum)",
+ "category":"Connecting Rod",
+ "sizes":{
+  "Special":{
+   "Fixed":130
+   }
+  }
+ },
+{
+ "id":39,
+ "productName":"Conrod bearing rebabbit (each)",
+ "category":"Connecting Rod",
+ "sizes":{
+  "Special":{
+   "Ω":240
+   },
+  "etc":{
+   "etc":240
+   }
+  }
+ },
+{
+ "id":40,
+ "productName":"Conrod bushing replace & resize (per arm)",
+ "category":"Connecting Rod",
+ "sizes":{
+  "Bantam":{
+   "B":30,
+   "B-1":30,
+   "Ω":55
+   },
+  "Light 4 Cyl":{
+   "D":45,
+   "E":45,
+   "Ω":55
+   },
+  "Medium":{
+   "F":60,
+   "C":30,
+   "Ω":68
+   },
+  "Light Heavy":{
+   "H":90,
+   "Ω":95
+   },
+  "V-Type":{
+   "G":90,
+   "Ω":120
+   },
+  "Medium Heavy":{
+   "I":150,
+   "J":200,
+   "Ω":180
+   },
+  "Heavy":{
+   "K":200,
+   "Ω":280
+   },
+  "Special":{
+   "Ω":55
+   }
+  }
+ },
+{
+ "id":41,
+ "productName":"Fabricate pin bushing",
+ "category":"Connecting Rod",
+ "sizes":{
+  "Bantam":{
+   "B-1":154
+   }
+  }
+ },
+{
+ "id":42,
+ "productName":"Fitting conrod bearing",
+ "category":"Connecting Rod",
+ "sizes":{
+  "Light 4 Cyl":{
+   "D":66,
+   "Ω":750
+   }
+  }
+ },
+{
+ "id":43,
+ "productName":"Grinding conrod journal",
+ "category":"Connecting Rod",
+ "sizes":{
+  "V-Type":{
+   "G":486,
+   "Ω":500
+   },
+  "Heavy":{
+   "K":1620
+   }
+  }
+ },
+{
+ "id":44,
+ "productName":"Press out\/ press in piston",
+ "category":"Connecting Rod",
+ "sizes":{
+  "Bantam":{
+   "B":40,
+   "Ω":80
+   },
+  "Medium":{
+   "C":75
+   }
+  }
+ },
+{
+ "id":45,
+ "productName":"Press out\/ press in piston pin",
+ "category":"Connecting Rod",
+ "sizes":{
+  "Bantam":{
+   "Ω":55
+   },
+  "Light 4 Cyl":{
+   "Ω":55
+   },
+  "Medium":{
+   "Ω":68
+   },
+  "Special":{
+   "Minica":60
+   },
+  "etc":{
+   "etc":220
+   }
+  }
+ },
+{
+ "id":46,
+ "productName":"Rebuild conrod journal (per journal)",
+ "category":"Connecting Rod",
+ "sizes":{
+  "Medium":{
+   "F":3180
+   },
+  "Light Heavy":{
+   "H":2800
+   },
+  "V-Type":{
+   "G":3200,
+   "Ω":3500
+   },
+  "Heavy":{
+   "K":6500,
+   "Ω":7389
+   }
+  }
+ },
+{
+ "id":47,
+ "productName":"Rebushing (per arm)",
+ "category":"Connecting Rod",
+ "sizes":{
+  "Special":{
+   "A":30,
+   "Starter":50
+   }
+  }
+ },
+{
+ "id":48,
+ "productName":"Restandard (per arm)",
+ "category":"Connecting Rod",
+ "sizes":{
+  "Bantam":{
+   "B":45,
+   "B-1":54,
+   "Ω":85
+   },
+  "Light 4 Cyl":{
+   "D":70,
+   "E":72,
+   "Ω":100
+   },
+  "Medium":{
+   "F":90,
+   "C":70,
+   "Ω":120
+   },
+  "Light Heavy":{
+   "H":120,
+   "Ω":150
+   },
+  "V-Type":{
+   "G":180,
+   "Ω":180
+   },
+  "Medium Heavy":{
+   "I":300,
+   "J":450,
+   "Ω":280
+   },
+  "Heavy":{
+   "K":600,
+   "Ω":500
+   },
+  "Special":{
+   "A":60,
+   "Starter":120,
+   "Minica":120,
+   "Ω":100
+   }
+  }
+ },
+{
+ "id":49,
+ "productName":"Sleeving conrod arm to fit bushing",
+ "category":"Connecting Rod",
+ "sizes":{
+  "Medium Heavy":{
+   "J":350,
+   "Ω":800
+   }
+  }
+ },
+{
+ "id":50,
+ "productName":"Straightening (per arm)",
+ "category":"Connecting Rod",
+ "sizes":{
+  "Bantam":{
+   "B":45,
+   "B-1":54,
+   "Ω":70
+   },
+  "Light 4 Cyl":{
+   "D":70,
+   "E":75,
+   "Ω":80
+   },
+  "Medium":{
+   "F":90,
+   "C":70,
+   "Ω":85
+   },
+  "Light Heavy":{
+   "H":120,
+   "Ω":90
+   },
+  "V-Type":{
+   "G":180,
+   "Ω":100
+   },
+  "Medium Heavy":{
+   "I":300,
+   "J":450,
+   "Ω":200
+   },
+  "Heavy":{
+   "K":600,
+   "Ω":450
+   },
+  "Special":{
+   "A":60,
+   "Minica":45,
+   "Ω":50
+   }
+  }
+ },
+{
+ "id":51,
+ "productName":"Align bore camshaft tunnel",
+ "category":"Camshaft \/ Piston",
+ "sizes":{
+  "Bantam":{
+   "B-1":88
+   }
+  }
+ },
+{
+ "id":52,
+ "productName":"Align camshaft tunnel",
+ "category":"Camshaft \/ Piston",
+ "sizes":{
+  "Bantam":{
+   "B-1":715
+   }
+  }
+ },
+{
+ "id":53,
+ "productName":"Build up & grinding idler shaft",
+ "category":"Camshaft \/ Piston",
+ "sizes":{
+  "Light 4 Cyl":{
+   "E":350
+   },
+  "Medium":{
+   "F":110
+   }
+  }
+ },
+{
+ "id":54,
+ "productName":"Build up & reface drum\/hub",
+ "category":"Camshaft \/ Piston",
+ "sizes":{
+  "Bantam":{
+   "B-1":198
+   }
+  }
+ },
+{
+ "id":55,
+ "productName":"Build up, reface & slotting water jacket hole",
+ "category":"Camshaft \/ Piston",
+ "sizes":{
+  "Bantam":{
+   "B":950,
+   "B-1":1200,
+   "Ω":1600
+   }
+  }
+ },
+{
+ "id":56,
+ "productName":"Bushing replace, reaming & fitting",
+ "category":"Camshaft \/ Piston",
+ "sizes":{
+  "Bantam":{
+   "B":30,
+   "B-1":30,
+   "Ω":85
+   },
+  "Light 4 Cyl":{
+   "D":60,
+   "E":60,
+   "Ω":85
+   },
+  "Medium":{
+   "F":77,
+   "C":30,
+   "Ω":90
+   },
+  "Light Heavy":{
+   "H":80,
+   "Ω":100
+   },
+  "V-Type":{
+   "G":80,
+   "Ω":110
+   },
+  "Medium Heavy":{
+   "I":50,
+   "J":200,
+   "Ω":180
+   },
+  "Heavy":{
+   "K":200,
+   "Ω":280
+   },
+  "Special":{
+   "Ω":85
+   }
+  }
+ },
+{
+ "id":57,
+ "productName":"Cam journal regrind",
+ "category":"Camshaft \/ Piston",
+ "sizes":{
+  "Bantam":{
+   "Ω":85
+   },
+  "Light 4 Cyl":{
+   "Ω":85
+   },
+  "Medium":{
+   "Ω":120
+   },
+  "Light Heavy":{
+   "Ω":120
+   },
+  "V-Type":{
+   "Ω":120
+   },
+  "Medium Heavy":{
+   "Ω":300
+   },
+  "Heavy":{
+   "Ω":600
+   },
+  "Special":{
+   "Ω":120
+   }
+  }
+ },
+{
+ "id":58,
+ "productName":"Cam lobe grinding",
+ "category":"Camshaft \/ Piston",
+ "sizes":{
+  "Bantam":{
+   "Ω":120
+   },
+  "Light 4 Cyl":{
+   "Ω":120
+   },
+  "Medium":{
+   "Ω":170
+   },
+  "Light Heavy":{
+   "Ω":200
+   },
+  "V-Type":{
+   "Ω":200
+   },
+  "Medium Heavy":{
+   "Ω":450
+   },
+  "Heavy":{
+   "Ω":850
+   },
+  "Special":{
+   "Ω":150
+   }
+  }
+ },
+{
+ "id":59,
+ "productName":"Camshaft bearing replace & insert",
+ "category":"Camshaft \/ Piston",
+ "sizes":{
+  "Special":{
+   "A":30
+   }
+  }
+ },
+{
+ "id":60,
+ "productName":"Drilling drum\/hub",
+ "category":"Camshaft \/ Piston",
+ "sizes":{
+  "Bantam":{
+   "B-1":39
+   }
+  }
+ },
+{
+ "id":61,
+ "productName":"Fabricate idler gear bushing",
+ "category":"Camshaft \/ Piston",
+ "sizes":{
+  "Medium":{
+   "F":380
+   }
+  }
+ },
+{
+ "id":62,
+ "productName":"Fitting camshaft bearing",
+ "category":"Camshaft \/ Piston",
+ "sizes":{
+  "Light 4 Cyl":{
+   "D":177
+   },
+  "Special":{
+   "A":70
+   }
+  }
+ },
+{
+ "id":63,
+ "productName":"HSG line bore conversion to brg. type",
+ "category":"Camshaft \/ Piston",
+ "sizes":{
+  "Special":{
+   "A":400
+   }
+  }
+ },
+{
+ "id":64,
+ "productName":"Machining idler gear bushing",
+ "category":"Camshaft \/ Piston",
+ "sizes":{
+  "Light Heavy":{
+   "H":154
+   }
+  }
+ },
+{
+ "id":65,
+ "productName":"Piston pin resize",
+ "category":"Camshaft \/ Piston",
+ "sizes":{
+  "Bantam":{
+   "Ω":160
+   },
+  "Light 4 Cyl":{
+   "Ω":160
+   },
+  "Medium":{
+   "Ω":200
+   },
+  "Light Heavy":{
+   "Ω":200
+   },
+  "Special":{
+   "Ω":160
+   }
+  }
+ },
+{
+ "id":66,
+ "productName":"Piston regrooving (per groove)",
+ "category":"Camshaft \/ Piston",
+ "sizes":{
+  "Bantam":{
+   "Ω":70
+   },
+  "Light 4 Cyl":{
+   "E":88,
+   "Ω":70
+   },
+  "Medium":{
+   "Ω":100
+   },
+  "Light Heavy":{
+   "Ω":120
+   },
+  "V-Type":{
+   "Ω":150
+   },
+  "Medium Heavy":{
+   "Ω":180
+   },
+  "Heavy":{
+   "Ω":250
+   },
+  "Special":{
+   "Ω":70
+   },
+  "etc":{
+   "etc":70
+   }
+  }
+ },
+{
+ "id":67,
+ "productName":"Piston resizing",
+ "category":"Camshaft \/ Piston",
+ "sizes":{
+  "Bantam":{
+   "B":60,
+   "Ω":150
+   },
+  "Light 4 Cyl":{
+   "D":120,
+   "Ω":150
+   },
+  "Medium":{
+   "C":70,
+   "Ω":260
+   },
+  "Light Heavy":{
+   "Ω":280
+   },
+  "Special":{
+   "A":40,
+   "Ω":150
+   }
+  }
+ },
+{
+ "id":68,
+ "productName":"Polishing cam journal",
+ "category":"Camshaft \/ Piston",
+ "sizes":{
+  "Light 4 Cyl":{
+   "D":39,
+   "Ω":42
+   },
+  "Special":{
+   "A":35
+   }
+  }
+ },
+{
+ "id":69,
+ "productName":"Press out\/ press in (per piston)",
+ "category":"Camshaft \/ Piston",
+ "sizes":{
+  "Bantam":{
+   "B-1":60
+   },
+  "Medium":{
+   "C":60
+   }
+  }
+ },
+{
+ "id":70,
+ "productName":"Press out\/ press in camshaft gear",
+ "category":"Camshaft \/ Piston",
+ "sizes":{
+  "Special":{
+   "A":80
+   }
+  }
+ },
+{
+ "id":71,
+ "productName":"Rebuild idler gear bushing",
+ "category":"Camshaft \/ Piston",
+ "sizes":{
+  "Light Heavy":{
+   "H":715
+   }
+  }
+ },
+{
+ "id":72,
+ "productName":"Replace & machining idler gear bushing",
+ "category":"Camshaft \/ Piston",
+ "sizes":{
+  "Medium":{
+   "F":60,
+   "Ω":180
+   },
+  "Light Heavy":{
+   "H":242
+   }
+  }
+ },
+{
+ "id":73,
+ "productName":"Replace & fit camshaft bushing",
+ "category":"Camshaft \/ Piston",
+ "sizes":{
+  "Medium":{
+   "F":150
+   }
+  }
+ },
+{
+ "id":74,
+ "productName":"Reboring (per cylinder)",
+ "category":"Cylinder Block",
+ "sizes":{
+  "Bantam":{
+   "B":60,
+   "B-1":72,
+   "Ω":100
+   },
+  "Light 4 Cyl":{
+   "D":145,
+   "E":160,
+   "Ω":150
+   },
+  "Medium":{
+   "F":250,
+   "C":70,
+   "Ω":180
+   },
+  "Light Heavy":{
+   "H":337,
+   "Ω":250
+   },
+  "V-Type":{
+   "G":320,
+   "Ω":400
+   },
+  "Special":{
+   "A":160,
+   "Starter":120,
+   "Fixed":150,
+   "Minica":60,
+   "Cycle":85,
+   "Ω":250
+   },
+  "etc":{
+   "etc":160
+   }
+  }
+ },
+{
+ "id":75,
+ "productName":"Sleeving (per cylinder)",
+ "category":"Cylinder Block",
+ "sizes":{
+  "Bantam":{
+   "B":120,
+   "B-1":145,
+   "Ω":200
+   },
+  "Light 4 Cyl":{
+   "D":290,
+   "E":320,
+   "Ω":230
+   },
+  "Medium":{
+   "F":430,
+   "C":140,
+   "Ω":250
+   },
+  "Light Heavy":{
+   "H":580,
+   "Ω":250
+   },
+  "V-Type":{
+   "G":1240,
+   "Ω":250
+   },
+  "Medium Heavy":{
+   "Ω":350
+   },
+  "Heavy":{
+   "Ω":380
+   },
+  "Special":{
+   "Minica":120,
+   "Ω":350
+   },
+  "etc":{
+   "etc":350
+   }
+  }
+ },
+{
+ "id":76,
+ "productName":"Sleeving (per cylinder): Without holes",
+ "category":"Cylinder Block",
+ "sizes":{
+  "Special":{
+   "Cycle":680
+   }
+  }
+ },
+{
+ "id":77,
+ "productName":"Sleeving (per cylinder): With holes",
+ "category":"Cylinder Block",
+ "sizes":{
+  "Special":{
+   "Cycle":760
+   }
+  }
+ },
+{
+ "id":78,
+ "productName":"Invert liner (per liner)",
+ "category":"Cylinder Block",
+ "sizes":{
+  "Light 4 Cyl":{
+   "D":180,
+   "E":200,
+   "Ω":1200
+   },
+  "Medium":{
+   "F":275,
+   "Ω":300
+   }
+  }
+ },
+{
+ "id":79,
+ "productName":"Replace liner (per bore)",
+ "category":"Cylinder Block",
+ "sizes":{
+  "Light 4 Cyl":{
+   "D":70,
+   "E":120,
+   "Ω":150
+   },
+  "Medium":{
+   "F":120,
+   "Ω":169
+   },
+  "Light Heavy":{
+   "H":120
+   },
+  "V-Type":{
+   "G":120
+   },
+  "Medium Heavy":{
+   "I":180,
+   "J":250,
+   "Ω":267
+   },
+  "Heavy":{
+   "K":250,
+   "Ω":380
+   }
+  }
+ },
+{
+ "id":80,
+ "productName":"Resleeving (per bore)",
+ "category":"Cylinder Block",
+ "sizes":{
+  "Bantam":{
+   "Ω":200
+   },
+  "Light 4 Cyl":{
+   "Ω":230
+   },
+  "Medium":{
+   "Ω":250
+   },
+  "Special":{
+   "Starter":240,
+   "Fixed":300,
+   "Ω":350
+   },
+  "etc":{
+   "etc":350
+   }
+  }
+ },
+{
+ "id":81,
+ "productName":"Honing (per cylinder)",
+ "category":"Cylinder Block",
+ "sizes":{
+  "Light 4 Cyl":{
+   "E":750
+   },
+  "Light Heavy":{
+   "H":154
+   },
+  "V-Type":{
+   "G":140
+   },
+  "Special":{
+   "A":35,
+   "Starter":99,
+   "Minica":30,
+   "Cycle":60
+   }
+  }
+ },
+{
+ "id":82,
+ "productName":"Honing (per cylinder): Resizing",
+ "category":"Cylinder Block",
+ "sizes":{
+  "Bantam":{
+   "Ω":100
+   },
+  "Light 4 Cyl":{
+   "Ω":100
+   },
+  "Medium":{
+   "Ω":120
+   },
+  "Light Heavy":{
+   "Ω":150
+   },
+  "V-Type":{
+   "Ω":170
+   },
+  "Medium Heavy":{
+   "Ω":200
+   },
+  "Heavy":{
+   "Ω":450
+   },
+  "Special":{
+   "Ω":120
+   },
+  "etc":{
+   "etc":120
+   }
+  }
+ },
+{
+ "id":83,
+ "productName":"Honing (per cylinder): Deglazing",
+ "category":"Cylinder Block",
+ "sizes":{
+  "Bantam":{
+   "B":25,
+   "B-1":30,
+   "Ω":100
+   },
+  "Light 4 Cyl":{
+   "D":60,
+   "E":60,
+   "Ω":100
+   },
+  "Medium":{
+   "F":60,
+   "C":35,
+   "Ω":120
+   },
+  "Light Heavy":{
+   "H":75,
+   "Ω":150
+   },
+  "V-Type":{
+   "G":75,
+   "Ω":170
+   },
+  "Medium Heavy":{
+   "I":150,
+   "J":200,
+   "Ω":200
+   },
+  "Heavy":{
+   "K":200,
+   "Ω":450
+   },
+  "Special":{
+   "Ω":120
+   },
+  "etc":{
+   "etc":120
+   }
+  }
+ },
+{
+ "id":84,
+ "productName":"Build up & align bore block ",
+ "category":"Cylinder Block",
+ "sizes":{
+  "Bantam":{
+   "B":650
+   }
+  }
+ },
+{
+ "id":85,
+ "productName":"Build up & machining  thrust side cap & block",
+ "category":"Cylinder Block",
+ "sizes":{
+  "Bantam":{
+   "B":750
+   },
+  "Medium Heavy":{
+   "J":6225
+   }
+  }
+ },
+{
+ "id":86,
+ "productName":"Build up cap end",
+ "category":"Cylinder Block",
+ "sizes":{
+  "Medium Heavy":{
+   "I":242,
+   "Ω":263
+   }
+  }
+ },
+{
+ "id":87,
+ "productName":"Cap & saddle build up (per housing)",
+ "category":"Cylinder Block",
+ "sizes":{
+  "Bantam":{
+   "B":320,
+   "B-1":385,
+   "Ω":1200
+   },
+  "Light 4 Cyl":{
+   "D":520,
+   "E":720,
+   "Ω":1200
+   },
+  "Medium":{
+   "F":1200,
+   "C":350,
+   "Ω":1450
+   },
+  "Light Heavy":{
+   "H":1045,
+   "Ω":1600
+   },
+  "V-Type":{
+   "G":1500,
+   "Ω":1800
+   },
+  "Medium Heavy":{
+   "I":1800,
+   "J":3500,
+   "Ω":6200
+   },
+  "Heavy":{
+   "K":3600,
+   "Ω":7500
+   },
+  "Special":{
+   "Minica":240
+   }
+  }
+ },
+{
+ "id":88,
+ "productName":"Counterbore & fabricate sleeve liner seat",
+ "category":"Cylinder Block",
+ "sizes":{
+  "Medium Heavy":{
+   "I":1045,
+   "Ω":1180
+   }
+  }
+ },
+{
+ "id":89,
+ "productName":"Counterbore liner seat (per seat)",
+ "category":"Cylinder Block",
+ "sizes":{
+  "Light 4 Cyl":{
+   "D":190,
+   "Ω":208
+   },
+  "Medium Heavy":{
+   "I":286,
+   "J":286,
+   "Ω":1500
+   },
+  "Heavy":{
+   "K":650,
+   "Ω":718
+   }
+  }
+ },
+{
+ "id":90,
+ "productName":"Cylinder block crack test",
+ "category":"Cylinder Block",
+ "sizes":{
+  "Bantam":{
+   "B":120,
+   "B-1":120,
+   "Ω":300
+   },
+  "Light 4 Cyl":{
+   "D":220,
+   "E":250,
+   "Ω":380
+   },
+  "Medium":{
+   "F":350,
+   "C":150,
+   "Ω":470
+   },
+  "Light Heavy":{
+   "H":420,
+   "Ω":520
+   },
+  "V-Type":{
+   "G":567,
+   "Ω":750
+   },
+  "Medium Heavy":{
+   "I":850,
+   "J":1200,
+   "Ω":1200
+   },
+  "Heavy":{
+   "K":1500,
+   "Ω":2200
+   },
+  "Special":{
+   "Minica":120,
+   "Ω":300
+   }
+  }
+ },
+{
+ "id":91,
+ "productName":"Cylinder block resurface",
+ "category":"Cylinder Block",
+ "sizes":{
+  "Bantam":{
+   "B":160,
+   "B-1":192,
+   "Ω":300
+   },
+  "Light 4 Cyl":{
+   "D":290,
+   "E":350,
+   "Ω":400
+   },
+  "Medium":{
+   "F":450,
+   "C":220,
+   "Ω":500
+   },
+  "Light Heavy":{
+   "H":1200,
+   "Ω":600
+   },
+  "V-Type":{
+   "G":1440,
+   "Ω":940
+   },
+  "Medium Heavy":{
+   "I":1280,
+   "J":2200,
+   "Ω":1500
+   },
+  "Heavy":{
+   "K":3500,
+   "Ω":2200
+   }
+  }
+ },
+{
+ "id":92,
+ "productName":"Dismantle & assemble water pump",
+ "category":"Cylinder Block",
+ "sizes":{
+  "Bantam":{
+   "B":140
+   }
+  }
+ },
+{
+ "id":93,
+ "productName":"Fabricate liner sleeve",
+ "category":"Cylinder Block",
+ "sizes":{
+  "Medium Heavy":{
+   "J":1045
+   }
+  }
+ },
+{
+ "id":94,
+ "productName":"Fabricate main bearing",
+ "category":"Cylinder Block",
+ "sizes":{
+  "Special":{
+   "Starter":572
+   }
+  }
+ },
+{
+ "id":95,
+ "productName":"Invert ringer",
+ "category":"Cylinder Block",
+ "sizes":{
+  "Light Heavy":{
+   "H":320
+   }
+  }
+ },
+{
+ "id":96,
+ "productName":"Invert sleeve & honing",
+ "category":"Cylinder Block",
+ "sizes":{
+  "Light 4 Cyl":{
+   "D":750
+   }
+  }
+ },
+{
+ "id":97,
+ "productName":"Machining (per sleeve)",
+ "category":"Cylinder Block",
+ "sizes":{
+  "Bantam":{
+   "Ω":50
+   },
+  "Light 4 Cyl":{
+   "D":150,
+   "Ω":50
+   },
+  "Medium":{
+   "C":100,
+   "Ω":50
+   },
+  "Light Heavy":{
+   "Ω":75
+   },
+  "Special":{
+   "A":120,
+   "Ω":50
+   }
+  }
+ },
+{
+ "id":98,
+ "productName":"Magnetic cracktest cylinder block liner seat",
+ "category":"Cylinder Block",
+ "sizes":{
+  "Medium Heavy":{
+   "I":935,
+   "J":120,
+   "Ω":998
+   },
+  "Heavy":{
+   "K":1045,
+   "Ω":1183
+   }
+  }
+ },
+{
+ "id":99,
+ "productName":"Main bearing align bore (3 main bag)",
+ "category":"Cylinder Block",
+ "sizes":{
+  "Special":{
+   "A":810
+   }
+  }
+ },
+{
+ "id":100,
+ "productName":"Main bearing fitting (per housing)",
+ "category":"Cylinder Block",
+ "sizes":{
+  "Bantam":{
+   "B":45,
+   "B-1":60
+   },
+  "Light 4 Cyl":{
+   "D":70,
+   "E":80,
+   "Ω":150
+   },
+  "Medium":{
+   "F":128,
+   "C":50,
+   "Ω":980
+   },
+  "Light Heavy":{
+   "H":150
+   },
+  "V-Type":{
+   "G":150,
+   "Ω":209
+   },
+  "Medium Heavy":{
+   "I":200,
+   "J":300,
+   "Ω":298
+   },
+  "Heavy":{
+   "K":450,
+   "Ω":679
+   },
+  "Special":{
+   "A":80,
+   "Starter":240,
+   "Minica":45
+   }
+  }
+ },
+{
+ "id":101,
+ "productName":"Main cap interference pit build up",
+ "category":"Cylinder Block",
+ "sizes":{
+  "Medium Heavy":{
+   "I":750
+   }
+  }
+ },
+{
+ "id":102,
+ "productName":"Main housing bore sleeving (per sleeve)",
+ "category":"Cylinder Block",
+ "sizes":{
+  "Special":{
+   "A":810
+   }
+  }
+ },
+{
+ "id":103,
+ "productName":"Main housing line boring (per bore)",
+ "category":"Cylinder Block",
+ "sizes":{
+  "Bantam":{
+   "B":90,
+   "B-1":110,
+   "Ω":170
+   },
+  "Light 4 Cyl":{
+   "D":145,
+   "E":160,
+   "Ω":170
+   },
+  "Medium":{
+   "F":190,
+   "C":95,
+   "Ω":185
+   },
+  "Light Heavy":{
+   "H":250,
+   "Ω":230
+   },
+  "V-Type":{
+   "G":567,
+   "Ω":400
+   },
+  "Medium Heavy":{
+   "I":405,
+   "J":540,
+   "Ω":650
+   },
+  "Heavy":{
+   "K":720,
+   "Ω":1500
+   },
+  "Special":{
+   "Minica":90,
+   "Ω":1250
+   }
+  }
+ },
+{
+ "id":104,
+ "productName":"Rebore & fabricate sleeve",
+ "category":"Cylinder Block",
+ "sizes":{
+  "Medium":{
+   "F":220
+   }
+  }
+ },
+{
+ "id":105,
+ "productName":"Rebore convert",
+ "category":"Cylinder Block",
+ "sizes":{
+  "Bantam":{
+   "B-1":90
+   },
+  "Special":{
+   "A":242
+   }
+  }
+ },
+{
+ "id":106,
+ "productName":"Rebore liner housing",
+ "category":"Cylinder Block",
+ "sizes":{
+  "Special":{
+   "A":192
+   }
+  }
+ },
+{
+ "id":107,
+ "productName":"Rebore liner housing (per bore)",
+ "category":"Cylinder Block",
+ "sizes":{
+  "Special":{
+   "A":160
+   }
+  }
+ },
+{
+ "id":108,
+ "productName":"Restandard liner collar seat",
+ "category":"Cylinder Block",
+ "sizes":{
+  "Medium Heavy":{
+   "Ω":2000
+   },
+  "Heavy":{
+   "Ω":3200
+   }
+  }
+ },
+{
+ "id":109,
+ "productName":"Ridge reaming (per bore)",
+ "category":"Cylinder Block",
+ "sizes":{
+  "Bantam":{
+   "B":45,
+   "B-1":50,
+   "Ω":55
+   },
+  "Light 4 Cyl":{
+   "D":60,
+   "E":60,
+   "Ω":65
+   },
+  "Medium":{
+   "F":60,
+   "C":45,
+   "Ω":80
+   },
+  "Light Heavy":{
+   "H":75,
+   "Ω":120
+   },
+  "V-Type":{
+   "G":75,
+   "Ω":170
+   },
+  "Medium Heavy":{
+   "I":150,
+   "J":200,
+   "Ω":200
+   },
+  "Heavy":{
+   "K":200,
+   "Ω":450
+   },
+  "Special":{
+   "Ω":120
+   },
+  "etc":{
+   "etc":120
+   }
+  }
+ },
+{
+ "id":110,
+ "productName":"Sleeving liner seat",
+ "category":"Cylinder Block",
+ "sizes":{
+  "V-Type":{
+   "G":1280
+   },
+  "Medium Heavy":{
+   "J":1045,
+   "Ω":1185
+   }
+  }
+ },
+{
+ "id":111,
+ "productName":"Sleeving pulley",
+ "category":"Cylinder Block",
+ "sizes":{
+  "Bantam":{
+   "B":242,
+   "B-1":240
+   },
+  "Light 4 Cyl":{
+   "D":140,
+   "E":280,
+   "Ω":400
+   },
+  "Medium":{
+   "F":320,
+   "Ω":345
+   },
+  "Light Heavy":{
+   "H":374
+   }
+  }
+ },
+{
+ "id":112,
+ "productName":"Conversion of valve only",
+ "category":"Cylinder Head \/ Valve",
+ "sizes":{
+  "Medium":{
+   "F":100
+   },
+  "Special":{
+   "A":130
+   }
+  }
+ },
+{
+ "id":113,
+ "productName":"Drill & fabricate valve guide",
+ "category":"Cylinder Head \/ Valve",
+ "sizes":{
+  "Bantam":{
+   "B":154
+   },
+  "Medium":{
+   "F":160,
+   "C":140,
+   "Ω":180
+   },
+  "Heavy":{
+   "K":650,
+   "Ω":721
+   },
+  "Special":{
+   "Starter":176
+   }
+  }
+ },
+{
+ "id":114,
+ "productName":"Machining of valve guide (per guide)",
+ "category":"Cylinder Head \/ Valve",
+ "sizes":{
+  "Special":{
+   "A":65
+   }
+  }
+ },
+{
+ "id":115,
+ "productName":"Valve guide build up (per pc)",
+ "category":"Cylinder Head \/ Valve",
+ "sizes":{
+  "Medium Heavy":{
+   "J":120,
+   "Ω":120
+   }
+  }
+ },
+{
+ "id":116,
+ "productName":"Valve guide conversion (per guide)",
+ "category":"Cylinder Head \/ Valve",
+ "sizes":{
+  "Bantam":{
+   "B":70
+   }
+  }
+ },
+{
+ "id":117,
+ "productName":"Valve guide replace (per guide)",
+ "category":"Cylinder Head \/ Valve",
+ "sizes":{
+  "Bantam":{
+   "B":20,
+   "B-1":25,
+   "Ω":25
+   },
+  "Light 4 Cyl":{
+   "D":20,
+   "E":25,
+   "Ω":25
+   },
+  "Medium":{
+   "F":25,
+   "C":20,
+   "Ω":35
+   },
+  "Light Heavy":{
+   "H":30,
+   "Ω":35
+   },
+  "V-Type":{
+   "G":30,
+   "Ω":40
+   },
+  "Medium Heavy":{
+   "I":30,
+   "J":40,
+   "Ω":80
+   },
+  "Heavy":{
+   "K":40,
+   "Ω":65
+   },
+  "Special":{
+   "A":20,
+   "Starter":20,
+   "Fixed":20,
+   "Minica":20,
+   "Ω":50
+   },
+  "etc":{
+   "etc":50
+   }
+  }
+ },
+{
+ "id":118,
+ "productName":"Valve guide sleeving",
+ "category":"Cylinder Head \/ Valve",
+ "sizes":{
+  "Special":{
+   "Fixed":240
+   }
+  }
+ },
+{
+ "id":119,
+ "productName":"Valve refacing (per valve)",
+ "category":"Cylinder Head \/ Valve",
+ "sizes":{
+  "Bantam":{
+   "B":20,
+   "B-1":25,
+   "Ω":20
+   },
+  "Light 4 Cyl":{
+   "D":20,
+   "E":25,
+   "Ω":20
+   },
+  "Medium":{
+   "F":25,
+   "C":20,
+   "Ω":25
+   },
+  "Light Heavy":{
+   "H":30,
+   "Ω":25
+   },
+  "V-Type":{
+   "G":30,
+   "Ω":35
+   },
+  "Medium Heavy":{
+   "I":30,
+   "J":40,
+   "Ω":45
+   },
+  "Heavy":{
+   "K":40,
+   "Ω":65
+   },
+  "Special":{
+   "A":20,
+   "Starter":20,
+   "Fixed":20,
+   "Minica":20,
+   "Cycle":60,
+   "Ω":30
+   },
+  "etc":{
+   "etc":30
+   }
+  }
+ },
+{
+ "id":120,
+ "productName":"Valve seat refacing (per seat)",
+ "category":"Cylinder Head \/ Valve",
+ "sizes":{
+  "Bantam":{
+   "B":25,
+   "B-1":25,
+   "Ω":30
+   },
+  "Light 4 Cyl":{
+   "D":30,
+   "E":30,
+   "Ω":30
+   },
+  "Medium":{
+   "F":30,
+   "C":25,
+   "Ω":32
+   },
+  "Light Heavy":{
+   "H":30,
+   "Ω":35
+   },
+  "V-Type":{
+   "G":30,
+   "Ω":40
+   },
+  "Medium Heavy":{
+   "I":40,
+   "J":60,
+   "Ω":75
+   },
+  "Heavy":{
+   "K":60,
+   "Ω":120
+   },
+  "Special":{
+   "A":20,
+   "Starter":30,
+   "Fixed":30,
+   "Minica":20,
+   "Cycle":20,
+   "Ω":40
+   },
+  "etc":{
+   "etc":40
+   }
+  }
+ },
+{
+ "id":121,
+ "productName":"Valve stem refacing (per valve)",
+ "category":"Cylinder Head \/ Valve",
+ "sizes":{
+  "Bantam":{
+   "B":15,
+   "Ω":30
+   },
+  "Light 4 Cyl":{
+   "D":20,
+   "Ω":30
+   },
+  "Medium":{
+   "C":20,
+   "Ω":35
+   },
+  "Light Heavy":{
+   "Ω":35
+   },
+  "V-Type":{
+   "Ω":50
+   },
+  "Medium Heavy":{
+   "Ω":75
+   },
+  "Heavy":{
+   "Ω":100
+   },
+  "Special":{
+   "Ω":30
+   },
+  "etc":{
+   "etc":30
+   }
+  }
+ },
+{
+ "id":122,
+ "productName":"Valve tappet refacing (per tappet)",
+ "category":"Cylinder Head \/ Valve",
+ "sizes":{
+  "Bantam":{
+   "B":20,
+   "B-1":25,
+   "Ω":20
+   },
+  "Light 4 Cyl":{
+   "D":20,
+   "E":25,
+   "Ω":20
+   },
+  "Medium":{
+   "F":25,
+   "C":25,
+   "Ω":25
+   },
+  "Light Heavy":{
+   "H":30,
+   "Ω":25
+   },
+  "V-Type":{
+   "G":30,
+   "Ω":40
+   },
+  "Medium Heavy":{
+   "I":30,
+   "J":40,
+   "Ω":60
+   },
+  "Heavy":{
+   "K":40,
+   "Ω":80
+   },
+  "Special":{
+   "A":35,
+   "Ω":40
+   },
+  "etc":{
+   "etc":40
+   }
+  }
+ },
+{
+ "id":123,
+ "productName":"Valve seat ring insert\/ fabrication (per insert)",
+ "category":"Cylinder Head \/ Valve",
+ "sizes":{
+  "Light 4 Cyl":{
+   "Ω":140
+   },
+  "Special":{
+   "Fixed":90,
+   "Cycle":90
+   }
+  }
+ },
+{
+ "id":124,
+ "productName":"Valve seat ring insert\/ fabrication (per insert): One only",
+ "category":"Cylinder Head \/ Valve",
+ "sizes":{
+  "Bantam":{
+   "B":120,
+   "B-1":120,
+   "Ω":280
+   },
+  "Light 4 Cyl":{
+   "D":120,
+   "E":210,
+   "Ω":280
+   },
+  "Medium":{
+   "F":180,
+   "C":120,
+   "Ω":320
+   },
+  "Light Heavy":{
+   "H":250,
+   "Ω":320
+   },
+  "V-Type":{
+   "G":243,
+   "Ω":350
+   },
+  "Medium Heavy":{
+   "I":394,
+   "J":365,
+   "Ω":450
+   },
+  "Heavy":{
+   "K":473,
+   "Ω":500
+   },
+  "Special":{
+   "A":120,
+   "Ω":280
+   },
+  "etc":{
+   "etc":280
+   }
+  }
+ },
+{
+ "id":125,
+ "productName":"Valve seat ring insert\/ fabrication (per insert): Two or more",
+ "category":"Cylinder Head \/ Valve",
+ "sizes":{
+  "Bantam":{
+   "B":90,
+   "B-1":90,
+   "Ω":200
+   },
+  "Light 4 Cyl":{
+   "D":90,
+   "E":145,
+   "Ω":200
+   },
+  "Medium":{
+   "F":120,
+   "C":90,
+   "Ω":240
+   },
+  "Light Heavy":{
+   "H":220,
+   "Ω":240
+   },
+  "V-Type":{
+   "G":220,
+   "Ω":300
+   },
+  "Medium Heavy":{
+   "I":324,
+   "J":270,
+   "Ω":350
+   },
+  "Heavy":{
+   "K":365,
+   "Ω":400
+   },
+  "Special":{
+   "A":90,
+   "Ω":200
+   },
+  "etc":{
+   "etc":200
+   }
+  }
+ },
+{
+ "id":126,
+ "productName":"Valve seat ring install & reseat (per insert)",
+ "category":"Cylinder Head \/ Valve",
+ "sizes":{
+  "Light 4 Cyl":{
+   "D":70,
+   "E":120,
+   "Ω":105
+   },
+  "Medium":{
+   "F":175,
+   "Ω":220
+   },
+  "Light Heavy":{
+   "H":180,
+   "Ω":250
+   },
+  "V-Type":{
+   "G":180,
+   "Ω":180
+   },
+  "Medium Heavy":{
+   "I":240,
+   "J":478,
+   "Ω":478
+   },
+  "Heavy":{
+   "K":270,
+   "Ω":476
+   },
+  "Special":{
+   "A":152,
+   "Ω":238
+   }
+  }
+ },
+{
+ "id":127,
+ "productName":"Valve seat conversion: Regular valve seat",
+ "category":"Cylinder Head \/ Valve",
+ "sizes":{
+  "Special":{
+   "A":120
+   }
+  }
+ },
+{
+ "id":128,
+ "productName":"Valve seat conversion: Big valve seat",
+ "category":"Cylinder Head \/ Valve",
+ "sizes":{
+  "Special":{
+   "A":180
+   }
+  }
+ },
+{
+ "id":129,
+ "productName":"Counterbore cylinder head for valve seat",
+ "category":"Cylinder Head \/ Valve",
+ "sizes":{
+  "Light 4 Cyl":{
+   "E":60,
+   "Ω":80
+   },
+  "Medium":{
+   "C":60,
+   "Ω":149
+   }
+  }
+ },
+{
+ "id":130,
+ "productName":"Crack test cylinder head",
+ "category":"Cylinder Head \/ Valve",
+ "sizes":{
+  "Bantam":{
+   "B":80,
+   "B-1":80,
+   "Ω":150
+   },
+  "Light 4 Cyl":{
+   "D":120,
+   "E":200,
+   "Ω":220
+   },
+  "Medium":{
+   "F":242,
+   "C":120,
+   "Ω":300
+   },
+  "Light Heavy":{
+   "H":280,
+   "Ω":400
+   },
+  "V-Type":{
+   "G":280,
+   "Ω":400
+   },
+  "Medium Heavy":{
+   "I":240,
+   "J":380,
+   "Ω":550
+   },
+  "Heavy":{
+   "K":180,
+   "Ω":380
+   },
+  "Special":{
+   "Minica":90
+   }
+  }
+ },
+{
+ "id":131,
+ "productName":"Reface cylinder head: Per head",
+ "category":"Cylinder Head \/ Valve",
+ "sizes":{
+  "Bantam":{
+   "Ω":250
+   },
+  "Light 4 Cyl":{
+   "Ω":250
+   },
+  "Medium":{
+   "Ω":300
+   },
+  "Light Heavy":{
+   "Ω":350
+   },
+  "V-Type":{
+   "Ω":450
+   },
+  "Medium Heavy":{
+   "Ω":750
+   },
+  "Heavy":{
+   "Ω":750
+   },
+  "Special":{
+   "A":270,
+   "Starter":120,
+   "Minica":135,
+   "Ω":250
+   },
+  "etc":{
+   "etc":250
+   }
+  }
+ },
+{
+ "id":132,
+ "productName":"Reface cylinder head: Aluminum",
+ "category":"Cylinder Head \/ Valve",
+ "sizes":{
+  "Bantam":{
+   "B":210,
+   "Ω":350
+   },
+  "Light 4 Cyl":{
+   "Ω":350
+   },
+  "Medium":{
+   "Ω":650
+   },
+  "Special":{
+   "Ω":350
+   },
+  "etc":{
+   "etc":150
+   }
+  }
+ },
+{
+ "id":133,
+ "productName":"Cylinder head resurface (per head)",
+ "category":"Cylinder Head \/ Valve",
+ "sizes":{
+  "Bantam":{
+   "B":120
+   },
+  "Light 4 Cyl":{
+   "D":180,
+   "E":200,
+   "Ω":500
+   },
+  "Medium":{
+   "F":280,
+   "C":150,
+   "Ω":270
+   },
+  "Light Heavy":{
+   "H":350,
+   "Ω":460
+   },
+  "V-Type":{
+   "G":420,
+   "Ω":650
+   },
+  "Medium Heavy":{
+   "I":250,
+   "J":480,
+   "Ω":680
+   },
+  "Heavy":{
+   "K":480,
+   "Ω":180
+   }
+  }
+ },
+{
+ "id":134,
+ "productName":"Cylinder head resurface (per head): Cast iron",
+ "category":"Cylinder Head \/ Valve",
+ "sizes":{
+  "Bantam":{
+   "B-1":145
+   }
+  }
+ },
+{
+ "id":135,
+ "productName":"Cylinder head resurface (per head): Aluminum",
+ "category":"Cylinder Head \/ Valve",
+ "sizes":{
+  "Bantam":{
+   "B":284,
+   "B-1":210
+   },
+  "Light 4 Cyl":{
+   "D":295,
+   "Ω":600
+   }
+  }
+ },
+{
+ "id":136,
+ "productName":"Cylinder head resurface (per head): 6D20",
+ "category":"Cylinder Head \/ Valve",
+ "sizes":{
+  "V-Type":{
+   "G":320
+   }
+  }
+ },
+{
+ "id":137,
+ "productName":"Cylinder head resurface (per head): GM671, D6",
+ "category":"Cylinder Head \/ Valve",
+ "sizes":{
+  "Light Heavy":{
+   "H":621
+   },
+  "Medium Heavy":{
+   "I":1150
+   }
+  }
+ },
+{
+ "id":138,
+ "productName":"Cylinder head resurface (per head): Caterpillar D1700",
+ "category":"Cylinder Head \/ Valve",
+ "sizes":{
+  "Heavy":{
+   "K":667
+   }
+  }
+ },
+{
+ "id":139,
+ "productName":"Cylinder head resurface (per head): Cummins V12",
+ "category":"Cylinder Head \/ Valve",
+ "sizes":{
+  "Heavy":{
+   "K":1700
+   }
+  }
+ },
+{
+ "id":140,
+ "productName":"Align bore & fab. cam balancer bushing",
+ "category":"Cylinder Head \/ Valve",
+ "sizes":{
+  "Bantam":{
+   "B-1":1800
+   }
+  }
+ },
+{
+ "id":141,
+ "productName":"Cylinder head stud oversize (per stud)",
+ "category":"Cylinder Head \/ Valve",
+ "sizes":{
+  "Special":{
+   "A":120
+   }
+  }
+ },
+{
+ "id":142,
+ "productName":"Dismantle & assemble rocker arm assembly",
+ "category":"Cylinder Head \/ Valve",
+ "sizes":{
+  "Light 4 Cyl":{
+   "D":120,
+   "Ω":125
+   },
+  "Medium":{
+   "F":180,
+   "Ω":197
+   }
+  }
+ },
+{
+ "id":143,
+ "productName":"Fabricate rocker arm bushing",
+ "category":"Cylinder Head \/ Valve",
+ "sizes":{
+  "Medium":{
+   "F":180,
+   "Ω":197
+   }
+  }
+ },
+{
+ "id":144,
+ "productName":"Grinding combustion seat",
+ "category":"Cylinder Head \/ Valve",
+ "sizes":{
+  "V-Type":{
+   "G":80,
+   "Ω":87
+   }
+  }
+ },
+{
+ "id":145,
+ "productName":"Machining combustion seat",
+ "category":"Cylinder Head \/ Valve",
+ "sizes":{
+  "Bantam":{
+   "B-1":77
+   },
+  "Special":{
+   "A":180
+   }
+  }
+ },
+{
+ "id":146,
+ "productName":"Rebore as per oversize liner (per liner)",
+ "category":"Cylinder Head \/ Valve",
+ "sizes":{
+  "Special":{
+   "A":160
+   }
+  }
+ },
+{
+ "id":147,
+ "productName":"Recondition oil pump",
+ "category":"Cylinder Head \/ Valve",
+ "sizes":{
+  "Bantam":{
+   "B":715
+   }
+  }
+ },
+{
+ "id":148,
+ "productName":"Regroove cylinder head (per groove)",
+ "category":"Cylinder Head \/ Valve",
+ "sizes":{
+  "V-Type":{
+   "G":140,
+   "Ω":149
+   },
+  "Medium Heavy":{
+   "I":180,
+   "Ω":200
+   }
+  }
+ },
+{
+ "id":149,
+ "productName":"Rocker arm reface (per arm)",
+ "category":"Cylinder Head \/ Valve",
+ "sizes":{
+  "Bantam":{
+   "Ω":25
+   },
+  "Light 4 Cyl":{
+   "Ω":25
+   },
+  "Medium":{
+   "C":20,
+   "Ω":35
+   },
+  "Light Heavy":{
+   "Ω":35
+   },
+  "V-Type":{
+   "Ω":60
+   },
+  "Medium Heavy":{
+   "Ω":60
+   },
+  "Heavy":{
+   "Ω":75
+   },
+  "Special":{
+   "Minica":20,
+   "Ω":50
+   },
+  "etc":{
+   "etc":50
+   }
+  }
+ },
+{
+ "id":150,
+ "productName":"Sleeving oil seal seat cam",
+ "category":"Cylinder Head \/ Valve",
+ "sizes":{
+  "Light 4 Cyl":{
+   "D":154,
+   "Ω":170
+   },
+  "Special":{
+   "Minica":180
+   }
+  }
+ },
+{
+ "id":151,
+ "productName":"Counterbore combustion seat",
+ "category":"Cylinder Head \/ Valve",
+ "sizes":{
+  "Bantam":{
+   "B":70
+   }
+  }
+ },
+{
+ "id":152,
+ "productName":"Pull out\/ install combustion chamber",
+ "category":"Cylinder Head \/ Valve",
+ "sizes":{
+  "Light Heavy":{
+   "H":120
+   },
+  "V-Type":{
+   "G":140,
+   "Ω":149
+   },
+  "Medium Heavy":{
+   "J":180,
+   "Ω":196
+   },
+  "Heavy":{
+   "K":180,
+   "Ω":198
+   }
+  }
+ },
+{
+ "id":153,
+ "productName":"Restandard spark plug hole",
+ "category":"Cylinder Head \/ Valve",
+ "sizes":{
+  "Bantam":{
+   "Ω":370
+   },
+  "Light 4 Cyl":{
+   "Ω":370
+   },
+  "Medium":{
+   "Ω":500
+   },
+  "Special":{
+   "A":220,
+   "Ω":370
+   },
+  "etc":{
+   "etc":300
+   }
+  }
+ },
+{
+ "id":154,
+ "productName":"Sleeving combustion seat",
+ "category":"Cylinder Head \/ Valve",
+ "sizes":{
+  "Medium Heavy":{
+   "J":3500,
+   "Ω":3980
+   },
+  "Heavy":{
+   "K":3500,
+   "Ω":3967
+   }
+  }
+ },
+{
+ "id":155,
+ "productName":"Sleeving spark plug hole (per hole)",
+ "category":"Cylinder Head \/ Valve",
+ "sizes":{
+  "Bantam":{
+   "B":180
+   },
+  "Special":{
+   "A":180,
+   "Fixed":180,
+   "Minica":180,
+   "Cycle":180
+   }
+  }
+ },
+{
+ "id":156,
+ "productName":"Valve fitting & assembly",
+ "category":"Cylinder Head \/ Valve",
+ "sizes":{
+  "Light 4 Cyl":{
+   "D":122
+   }
+  }
+ },
+{
+ "id":157,
+ "productName":"Brake disc reface (per side)",
+ "category":"Miscellaneous",
+ "sizes":{
+  "Bantam":{
+   "B":240,
+   "Ω":200
+   },
+  "Light 4 Cyl":{
+   "Ω":200
+   },
+  "Medium":{
+   "Ω":250
+   },
+  "Special":{
+   "A":240,
+   "Ω":350
+   }
+  }
+ },
+{
+ "id":158,
+ "productName":"Brake drum reface",
+ "category":"Miscellaneous",
+ "sizes":{
+  "Bantam":{
+   "B":90,
+   "B-1":90,
+   "Ω":150
+   },
+  "Light 4 Cyl":{
+   "D":280,
+   "E":320,
+   "Ω":150
+   },
+  "Medium":{
+   "F":180,
+   "C":150,
+   "Ω":250
+   },
+  "Light Heavy":{
+   "H":500,
+   "Ω":600
+   },
+  "V-Type":{
+   "G":500,
+   "Ω":900
+   },
+  "Medium Heavy":{
+   "Ω":900
+   },
+  "Heavy":{
+   "Ω":900
+   },
+  "Special":{
+   "A":90,
+   "Minica":60,
+   "Ω":150
+   }
+  }
+ },
+{
+ "id":159,
+ "productName":"Broken stud removed",
+ "category":"Miscellaneous",
+ "sizes":{
+  "Bantam":{
+   "Ω":50
+   },
+  "Light 4 Cyl":{
+   "Ω":50
+   },
+  "Medium":{
+   "Ω":60
+   },
+  "Light Heavy":{
+   "Ω":150
+   },
+  "V-Type":{
+   "Ω":250
+   },
+  "Medium Heavy":{
+   "Ω":250
+   },
+  "Heavy":{
+   "Ω":250
+   },
+  "Special":{
+   "Ω":120
+   },
+  "etc":{
+   "etc":50
+   }
+  }
+ },
+{
+ "id":160,
+ "productName":"Exhaust manifold reface",
+ "category":"Miscellaneous",
+ "sizes":{
+  "Bantam":{
+   "B":120,
+   "B-1":120,
+   "Ω":300
+   },
+  "Light 4 Cyl":{
+   "D":180,
+   "E":200,
+   "Ω":300
+   },
+  "Medium":{
+   "F":226,
+   "C":150,
+   "Ω":350
+   },
+  "Light Heavy":{
+   "H":350,
+   "Ω":450
+   },
+  "V-Type":{
+   "G":360,
+   "Ω":750
+   },
+  "Medium Heavy":{
+   "I":250,
+   "J":650,
+   "Ω":900
+   },
+  "Heavy":{
+   "K":650,
+   "Ω":900
+   }
+  }
+ },
+{
+ "id":161,
+ "productName":"Flywheel build up & relocate dowel pin hole",
+ "category":"Miscellaneous",
+ "sizes":{
+  "Special":{
+   "A":360
+   }
+  }
+ },
+{
+ "id":162,
+ "productName":"Flywheel reface",
+ "category":"Miscellaneous",
+ "sizes":{
+  "Bantam":{
+   "B":120,
+   "B-1":120,
+   "Ω":250
+   },
+  "Light 4 Cyl":{
+   "D":180,
+   "E":200,
+   "Ω":250
+   },
+  "Medium":{
+   "F":250,
+   "C":150,
+   "Ω":320
+   },
+  "Light Heavy":{
+   "H":420,
+   "Ω":500
+   },
+  "V-Type":{
+   "G":420,
+   "Ω":750
+   },
+  "Medium Heavy":{
+   "I":480,
+   "J":650,
+   "Ω":1200
+   },
+  "Heavy":{
+   "K":650,
+   "Ω":1200
+   },
+  "Special":{
+   "A":145,
+   "Minica":60,
+   "Ω":250
+   }
+  }
+ },
+{
+ "id":163,
+ "productName":"Flywheel reface back flange",
+ "category":"Miscellaneous",
+ "sizes":{
+  "Special":{
+   "A":119
+   }
+  }
+ },
+{
+ "id":164,
+ "productName":"Press out\/in axle bearing (Owner's risk)",
+ "category":"Miscellaneous",
+ "sizes":{
+  "Bantam":{
+   "Ω":90
+   },
+  "Light 4 Cyl":{
+   "Ω":100
+   },
+  "Medium":{
+   "Ω":150
+   },
+  "Light Heavy":{
+   "Ω":250
+   }
+  }
+ },
+{
+ "id":165,
+ "productName":"Press out\/in water pump (Owner's risk)",
+ "category":"Miscellaneous",
+ "sizes":{
+  "Bantam":{
+   "Ω":130
+   },
+  "Light 4 Cyl":{
+   "Ω":130
+   },
+  "Medium":{
+   "Ω":180
+   },
+  "Light Heavy":{
+   "Ω":250
+   },
+  "V-Type":{
+   "Ω":450
+   },
+  "Medium Heavy":{
+   "Ω":450
+   },
+  "Heavy":{
+   "Ω":450
+   }
+  }
+ },
+{
+ "id":166,
+ "productName":"Pressure plate reface",
+ "category":"Miscellaneous",
+ "sizes":{
+  "Bantam":{
+   "B":120,
+   "B-1":120,
+   "Ω":250
+   },
+  "Light 4 Cyl":{
+   "D":180,
+   "E":200,
+   "Ω":250
+   },
+  "Medium":{
+   "F":200,
+   "C":150,
+   "Ω":320
+   },
+  "Light Heavy":{
+   "H":420,
+   "Ω":500
+   },
+  "V-Type":{
+   "G":420,
+   "Ω":750
+   },
+  "Medium Heavy":{
+   "I":480,
+   "J":650,
+   "Ω":750
+   },
+  "Heavy":{
+   "K":650,
+   "Ω":800
+   },
+  "Special":{
+   "A":105,
+   "Minica":60,
+   "Ω":250
+   }
+  }
+ },
+{
+ "id":167,
+ "productName":"Turbo Wash: Block",
+ "category":"Miscellaneous",
+ "sizes":{
+  "Bantam":{
+   "Ω":250
+   },
+  "Light 4 Cyl":{
+   "Ω":250
+   },
+  "Medium":{
+   "Ω":300
+   },
+  "Light Heavy":{
+   "Ω":350
+   },
+  "V-Type":{
+   "G":308,
+   "Ω":500
+   },
+  "Medium Heavy":{
+   "Ω":1500
+   },
+  "Heavy":{
+   "Ω":1500
+   },
+  "Special":{
+   "Ω":250
+   }
+  }
+ },
+{
+ "id":168,
+ "productName":"Turbo Wash: Cylinder head",
+ "category":"Miscellaneous",
+ "sizes":{
+  "Bantam":{
+   "Ω":150
+   },
+  "Light 4 Cyl":{
+   "Ω":150
+   },
+  "Medium":{
+   "Ω":200
+   },
+  "Light Heavy":{
+   "Ω":300
+   },
+  "V-Type":{
+   "Ω":250
+   },
+  "Medium Heavy":{
+   "Ω":500
+   },
+  "Heavy":{
+   "Ω":500
+   },
+  "Special":{
+   "Ω":150
+   }
+  }
+ },
+{
+ "id":169,
+ "productName":"Turbo Wash: Exhaust manifold",
+ "category":"Miscellaneous",
+ "sizes":{
+  "Bantam":{
+   "Ω":100
+   },
+  "Light 4 Cyl":{
+   "Ω":100
+   },
+  "Medium":{
+   "Ω":150
+   },
+  "Light Heavy":{
+   "Ω":200
+   },
+  "V-Type":{
+   "Ω":150
+   },
+  "Medium Heavy":{
+   "Ω":450
+   },
+  "Heavy":{
+   "Ω":450
+   },
+  "Special":{
+   "Ω":100
+   }
+  }
+ },
+{
+ "id":170,
+ "productName":"Turbo Wash: Front cover",
+ "category":"Miscellaneous",
+ "sizes":{
+  "V-Type":{
+   "G":55,
+   "Ω":50
+   }
+  }
+ },
+{
+ "id":171,
+ "productName":"Build up & grinding steering shaft (inside)",
+ "category":"Miscellaneous",
+ "sizes":{
+  "Bantam":{
+   "B-1":418
+   }
+  }
+ },
+{
+ "id":172,
+ "productName":"Conversion of oil pump",
+ "category":"Miscellaneous",
+ "sizes":{
+  "Light 4 Cyl":{
+   "E":580
+   },
+  "Medium":{
+   "F":580,
+   "Ω":650
+   }
+  }
+ },
+{
+ "id":173,
+ "productName":"Crack test oil cooler",
+ "category":"Miscellaneous",
+ "sizes":{
+  "V-Type":{
+   "G":280,
+   "Ω":300
+   }
+  }
+ },
+{
+ "id":174,
+ "productName":"Cut, align & weld intake manifold",
+ "category":"Miscellaneous",
+ "sizes":{
+  "Bantam":{
+   "B-1":620
+   }
+  }
+ },
+{
+ "id":175,
+ "productName":"Dismantle & assemble pressure plate",
+ "category":"Miscellaneous",
+ "sizes":{
+  "Light 4 Cyl":{
+   "E":154,
+   "Ω":164
+   },
+  "Light Heavy":{
+   "H":198
+   }
+  }
+ },
+{
+ "id":176,
+ "productName":"Fabricate dowel (bearing)",
+ "category":"Miscellaneous",
+ "sizes":{
+  "Special":{
+   "A":40
+   }
+  }
+ },
+{
+ "id":177,
+ "productName":"Fabricate stud bolt cylinder head",
+ "category":"Miscellaneous",
+ "sizes":{
+  "Special":{
+   "A":140
+   }
+  }
+ },
+{
+ "id":178,
+ "productName":"Fabricate water jacket plug",
+ "category":"Miscellaneous",
+ "sizes":{
+  "Light 4 Cyl":{
+   "D":70
+   }
+  }
+ },
+{
+ "id":179,
+ "productName":"Pull out\/ install valburizer",
+ "category":"Miscellaneous",
+ "sizes":{
+  "Light 4 Cyl":{
+   "E":180,
+   "Ω":193
+   }
+  }
+ },
+{
+ "id":180,
+ "productName":"Restandard crankcase stud bolt",
+ "category":"Miscellaneous",
+ "sizes":{
+  "Special":{
+   "A":154
+   }
+  }
+ },
+{
+ "id":181,
+ "productName":"Restandard stud bolt hole",
+ "category":"Miscellaneous",
+ "sizes":{
+  "Special":{
+   "A":70
+   }
+  }
+ },
+{
+ "id":182,
+ "productName":"Sleeving front cover water elbow",
+ "category":"Miscellaneous",
+ "sizes":{
+  "Bantam":{
+   "B-1":420
+   }
+  }
+ },
+{
+ "id":183,
+ "productName":"Sleeving valburizer",
+ "category":"Miscellaneous",
+ "sizes":{
+  "Light 4 Cyl":{
+   "D":360,
+   "E":264,
+   "Ω":400
+   }
+  }
+ },
+{
+ "id":184,
+ "productName":"Pull out\/ install injector sleeve: Normal",
+ "category":"Miscellaneous",
+ "sizes":{
+  "V-Type":{
+   "G":280,
+   "Ω":290
+   },
+  "Medium Heavy":{
+   "I":370,
+   "Ω":400
+   }
+  }
+ },
+{
+ "id":185,
+ "productName":"Pull out\/ install injector sleeve: Detroit 6x53",
+ "category":"Miscellaneous",
+ "sizes":{
+  "V-Type":{
+   "G":352,
+   "Ω":390
+   }
+  }
+ },
+{
+ "id":186,
+ "productName":"Fabricate tapered sleeve",
+ "category":"Miscellaneous",
+ "sizes":{
+  "Light Heavy":{
+   "H":418
+   }
+  }
+ },
+{
+ "id":187,
+ "productName":"Knuckle build up bushing seat",
+ "category":"Miscellaneous",
+ "sizes":{
+  "Special":{
+   "A":200
+   }
+  }
+ },
+{
+ "id":188,
+ "productName":"Torsion arm refill bushing\/ bearing seat",
+ "category":"Miscellaneous",
+ "sizes":{
+  "Special":{
+   "A":300
+   }
+  }
+ },
+{
+ "id":189,
+ "productName":"Knuckle build up thrust side",
+ "category":"Miscellaneous",
+ "sizes":{
+  "Special":{
+   "A":130
+   }
+  }
+ },
+{
+ "id":190,
+ "productName":"1st crack",
+ "category":"Crack Cold Welding",
+ "sizes":{
+  "Bantam":{
+   "B":200,
+   "B-1":200
+   },
+  "Light 4 Cyl":{
+   "D":270,
+   "E":270
+   },
+  "Medium":{
+   "F":300,
+   "C":250
+   },
+  "Light Heavy":{
+   "H":350
+   },
+  "V-Type":{
+   "G":350
+   },
+  "Medium Heavy":{
+   "I":400,
+   "J":500
+   },
+  "Heavy":{
+   "K":500
+   }
+  }
+ },
+{
+ "id":191,
+ "productName":"2nd crack",
+ "category":"Crack Cold Welding",
+ "sizes":{
+  "Bantam":{
+   "B":180,
+   "B-1":180
+   },
+  "Light 4 Cyl":{
+   "D":220,
+   "E":220
+   },
+  "Medium":{
+   "F":280,
+   "C":200
+   },
+  "Light Heavy":{
+   "H":300
+   },
+  "V-Type":{
+   "G":300
+   },
+  "Medium Heavy":{
+   "I":380,
+   "J":450
+   },
+  "Heavy":{
+   "K":450
+   }
+  }
+ },
+{
+ "id":192,
+ "productName":"3rd crack",
+ "category":"Crack Cold Welding",
+ "sizes":{
+  "Bantam":{
+   "B":135,
+   "B-1":135
+   },
+  "Light 4 Cyl":{
+   "D":180,
+   "E":180
+   },
+  "Medium":{
+   "F":250,
+   "C":180
+   },
+  "Light Heavy":{
+   "H":280
+   },
+  "V-Type":{
+   "G":280
+   },
+  "Medium Heavy":{
+   "I":350,
+   "J":400
+   },
+  "Heavy":{
+   "K":400
+   }
+  }
+ }]
