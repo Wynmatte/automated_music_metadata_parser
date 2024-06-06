@@ -43,9 +43,9 @@ class _HomeScreenState extends State<HomeScreen> {
             backgroundColor: Color.fromARGB(255, 249, 119, 55),
           ),
         ),
-        body: SingleChildScrollView(
-          scrollDirection: Axis.horizontal,
+        body: Center(
           child: SingleChildScrollView(
+ flutter-to-json
               child: Padding(
             padding: const EdgeInsets.all(12.0),
             child: Container(
@@ -64,9 +64,30 @@ class _HomeScreenState extends State<HomeScreen> {
                 headingRowHeight: 28,
                 border: TableBorder.all(width: 1),
                 // TODO: implement checkbox features
+            scrollDirection: Axis.horizontal,
+            child: SingleChildScrollView(
+                child: Padding(
+              padding: const EdgeInsets.all(12.0),
+              child: Container(
+                clipBehavior: Clip.antiAlias,
+                decoration: BoxDecoration(
+                    border: Border.all(width: 0),
+                    borderRadius: BorderRadius.all(Radius.circular(15))),
+                child: DataTable(
+                  columns: cols,
+                  rows: widget.tracks,
+                  dataRowMinHeight: 12,
+                  dividerThickness: 1,
+                  showBottomBorder: true,
+                  headingRowColor:
+                      WidgetStatePropertyAll(Color.fromARGB(255, 247, 127, 67)),
+                  headingRowHeight: 28,
+                  // TODO: implement checkbox features
+                ),
+ main
               ),
-            ),
-          )),
+            )),
+          ),
         ));
   }
 }
