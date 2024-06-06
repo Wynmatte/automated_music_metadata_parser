@@ -63,6 +63,12 @@ List<DataRow> getTracks(dynamic json) {
         ),
         initialValue: track["track_year"],
       )),
+      DataCell(TextFormField(
+        decoration: InputDecoration(
+          border: InputBorder.none,
+        ),
+        initialValue: "title",
+      )),
       DataCell(Text(
         date_created,
       )),
