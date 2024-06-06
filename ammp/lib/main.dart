@@ -6,10 +6,12 @@ import 'package:ammp/home.dart';
 import 'package:flutter/services.dart';
 import 'dart:convert';
 
+
+
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   List<dynamic> data = [];
-
+  
   Future<void> readJson() async {
     final String response = await rootBundle.loadString("assets/tracks.json");
     data = await jsonDecode(response);

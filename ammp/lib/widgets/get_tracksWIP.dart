@@ -1,11 +1,15 @@
 // ignore_for_file: prefer_const_constructors
 
+import 'dart:convert';
+
 import 'package:flutter/material.dart';
+import 'example.dart' as example;
 
 List<DataRow> getTracks(dynamic json) {
   List<DataRow> row = [];
 
   for (Map<String, dynamic> track in json) {
+    final tracks = example.Track.fromJson(track);
     String date_created =
         (track["date_created"] != null) ? track["date_created"] : "None";
     String date_modified =
@@ -17,12 +21,12 @@ List<DataRow> getTracks(dynamic json) {
           border: InputBorder.none,
         ),
         initialValue: track["title"],
-        onFieldSubmitted: (value) {},
       )),
       DataCell(TextFormField(
         onChanged: (value) {
-          track["artist_name"] = value;
-          print(track["artist_name"]);
+          tracks.artist_name = value;
+          var map = tracks.toJson();
+          print(jsonEncode(map));
         },
         decoration: InputDecoration(
           border: InputBorder.none,
