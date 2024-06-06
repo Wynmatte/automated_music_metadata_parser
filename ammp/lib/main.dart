@@ -9,7 +9,7 @@ import 'dart:convert';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   List<dynamic> data = [];
-  
+
   Future<void> readJson() async {
     final String response = await rootBundle.loadString("assets/tracks.json");
     data = await jsonDecode(response);
@@ -17,12 +17,10 @@ Future<void> main() async {
 
   await readJson();
 
-
   List<DataRow> tracks = getTracks(data);
   runApp(MaterialApp(
     title: "AMMP",
     // initialRoute: '/loadingScreen',
     home: HomeScreen(tracks: tracks),
   ));
-
 }
