@@ -1,8 +1,9 @@
 import 'dart:io';
 import 'package:path_provider/path_provider.dart';
 
-List<dynamic> outputJson = []; // contains json used to encode to the file
+String outputJson = ""; // contains json string used to encode to the file
 
+// File I/O of tracks.json
 class TracksFile {
   Future<String> get _localPath async {
     final directory =
@@ -16,7 +17,7 @@ class TracksFile {
     return File('$path/tracks.json');
   }
 
-  Future<dynamic> readCounter() async {
+  Future<dynamic> readTracks() async {
     try {
       final file = await _localFile;
 
@@ -30,10 +31,10 @@ class TracksFile {
     }
   }
 
-  Future<File> writeCounter(List<dynamic> outputJson) async {
+  Future<File> writeTracks(String outputJson) async {
     final file = await _localFile;
 
     // Write the file
-    return file.writeAsString('$outputJson');
+    return file.writeAsString(outputJson);
   }
 }

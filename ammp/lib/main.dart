@@ -18,9 +18,7 @@ Future<void> main() async {
 
   await readJson();
 
-  List<DataRow> tracks = getTracks(
-    data
-  );
+  List<DataRow> tracks = getTracks(data);
   runApp(MaterialApp(
     title: "AMMP",
     // initialRoute: '/loadingScreen',
