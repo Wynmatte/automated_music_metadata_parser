@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:ammp/home.dart';
 import 'package:flutter/services.dart';
 import 'dart:convert';
+import 'package:ammp/globals.dart' as globals;
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -17,7 +18,9 @@ Future<void> main() async {
 
   await readJson();
 
-  List<DataRow> tracks = getTracks(data);
+  List<DataRow> tracks = getTracks(
+    data
+  );
   runApp(MaterialApp(
     title: "AMMP",
     // initialRoute: '/loadingScreen',

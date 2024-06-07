@@ -3,10 +3,10 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-
-List<dynamic> outputJson = [];
+import 'package:ammp/globals.dart' as globals;
 
 List<DataRow> getTracks(List<dynamic> json) {
+  final globals.TracksFile file = globals.TracksFile();
   List<DataRow> row = [];
 
   for (Map<String, dynamic> track in json) {
@@ -26,7 +26,8 @@ List<DataRow> getTracks(List<dynamic> json) {
       DataCell(TextFormField(
         onChanged: (value) {
           track['artist_name'] = value;
-          outputJson = json;
+          globals.outputJson = json;
+          file.writeCounter(globals.outputJson);
         },
         decoration: InputDecoration(
           border: InputBorder.none,
