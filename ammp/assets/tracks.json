@@ -1,1 +1,72 @@
-[{"id":1,"title":"Silver Chilsssssdren","genre":"Psychedelicss Rock","pace":null,"energy":null,"track_year":null,"track_number":null,"date_created":null,"date_modified":null,"artist_name":"Front Page Reviewsss","album_name":null,"album_cover":null},{"id":2,"title":"My Generationsssaaa","genre":"Garage Rock","pace":null,"energy":null,"track_year":null,"track_number":null,"date_created":null,"date_modified":null,"artist_name":null,"album_name":null,"album_cover":null},{"id":3,"title":"sd","genre":null,"pace":null,"energy":null,"track_year":null,"track_number":null,"date_created":null,"date_modified":null,"artist_name":null,"album_name":null,"album_cover":null},{"id":4,"title":"sd","genre":null,"pace":null,"energy":null,"track_year":null,"track_number":null,"date_created":null,"date_modified":null,"artist_name":null,"album_name":null,"album_cover":null},{"id":5,"title":"sd","genre":null,"pace":null,"energy":null,"track_year":null,"track_number":null,"date_created":null,"date_modified":null,"artist_name":null,"album_name":null,"album_cover":null}]
+[
+    {
+        "id": 1,
+        "title": "Silver Childrsssssssssssssen",
+        "genre": "Psychedelic Rock",
+        "pace": null,
+        "energy": null,
+        "track_year": null,
+        "track_number": null,
+        "date_created": null,
+        "date_modified": null,
+        "artist_name": "Front Page Review",
+        "album_name": null,
+        "album_cover": null
+    },
+    {
+        "id": 2,
+        "title": "My Generation",
+        "genre": "Garage Rock",
+        "pace": null,
+        "energy": null,
+        "track_year": null,
+        "track_number": null,
+        "date_created": null,
+        "date_modified": null,
+        "artist_name": null,
+        "album_name": null,
+        "album_cover": null
+    },
+    {
+        "id": 3,
+        "title": "sd",
+        "genre": null,
+        "pace": null,
+        "energy": null,
+        "track_year": null,
+        "track_number": null,
+        "date_created": null,
+        "date_modified": null,
+        "artist_name": null,
+        "album_name": null,
+        "album_cover": null
+    },
+    {
+        "id": 4,
+        "title": "sd",
+        "genre": null,
+        "pace": null,
+        "energy": null,
+        "track_year": null,
+        "track_number": null,
+        "date_created": null,
+        "date_modified": null,
+        "artist_name": null,
+        "album_name": null,
+        "album_cover": null
+    },
+    {
+        "id": 5,
+        "title": "sd",
+        "genre": null,
+        "pace": null,
+        "energy": null,
+        "track_year": null,
+        "track_number": null,
+        "date_created": null,
+        "date_modified": null,
+        "artist_name": null,
+        "album_name": null,
+        "album_cover": null
+    }
+]
