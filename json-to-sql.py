@@ -3,6 +3,8 @@ import pandas
 import pandas as pd
 import sqlalchemy
 import mysql.connector
+import numpy as np
+import pymysql
 
 # Watchdog file change detection of tracks.json
 import watchdog.events
@@ -27,48 +29,81 @@ class Handler(watchdog.events.PatternMatchingEventHandler):
 		# Event is modified, you can process it now
 		# Convert json to dataframe
 		df = pandas.read_json("ammp/assets/tracks.json")
+		df = df.replace(np.nan, pymysql.NULL)
 		# for each row in df
 			#	for each cell, compare to corresponding sql column
 			# 	if there are differences, change them according to json update
-			#   if row does not exist, insert into tracks, album, artist
 			# 	(optional for now) if track is deleted, delete row in sql
 		for index, row in df.iterrows():
-			for column in df:
-				print(column)
-				if column != "id":	
-					cur.execute("SELECT id FROM tracks WHERE id = %s", list(str(row['id'])))
-					id = cur.fetchone
-					if id != None:
-						try:
-							cur.execute(f"""UPDATE tracks SET `{column}` = "{row[column]}" WHERE id = {str(row['id'])}""")
-							cur.execute(f"""SELECT `{column}` FROM tracks WHERE id = {str(row['id'])}""")
-							c = cur.fetchone()
-							print(c)
-						except KeyError:
-							try:
-								cur.execute(f"""UPDATE artists SET {column} = (%s) WHERE id = %s""", (column, str(row[column]), (str(row['id']))))
-								c = cur.fetchone()
-								print(c)
-							except KeyError:
-								cur.execute("UPDATE albums SET (%s) = (%s) WHERE id = %s", (column, str(row[column]), (str(row['id']))))
-								c = cur.fetchone()
-								print(c)
-					else:
-						pass
-					# insert when does not exist
-						# try:
-						# 	cur.execute("INSERT INTO tracks (%s) VALUES (%s) WHERE id = %s", (column, str(row[column]), (str(row['id']))))
-						# 	c = cur.fetchone()
-						# 	print(c)
-						# except KeyError:		
-						# 	try:
-						# 		cur.execute("INSERT INTO artists (%s) VALUES (%s) WHERE id = %s", column, str(row[column]), list(str(row['id'])))
-						# 		c = cur.fetchone()
-						# 		print(c)
-						# 	except KeyError:
-						# 		cur.execute("INSERT INTO albums (%s) VALUES (%s) WHERE id = %s", column, (str(row[column])), list(str(row['id'])))
-						# 		c = cur.fetchone()
-						# 		print(c)
+			cur.execute("SELECT id FROM tracks WHERE id = %s", list(str(row['id'])))
+			id = cur.fetchone
+			# tracks_cols = ("id", "title", "genre", "pace", "energy",
+			# 	  "track_year", "track_number", "date_created",
+			# 	   "date_modified" )
+			# tracks_args = (
+			# 	row["id"],
+			# 	row["title"],
+			# 	row["genre"],
+			# 	row["pace"],
+			# 	row["energy"],
+			# 	row["track_year"],
+			# 	row["track_number"],
+			# 	row["date_created"],					
+			# 	row["date_modified"])
+			
+			# artists_cols = ('artist_name', 'artist_id', 'track_id')
+			# artists_args = (
+			# 	row['artist_name'],
+			# 	row['artist_id'],
+			# 	row['track_id'])
+			
+			# albums_cols = ('album_id', 'track_id', 'artist_id', 'album_name', 'cover')
+			# albums_args = (
+			# 	row['album_id'], 
+			# 	row['track_id'], 
+			# 	row['artist_id'], 
+			# 	row['album_name'], 
+			# 	row['album_cover'])
+
+			# If track exists (based on track id)
+			if id != None:
+				cur.execute(f"""
+				UPDATE `tracks` SET 
+				title = "{row["title"]}", 
+				genre = "{row["genre"]}",  
+				pace = {row["pace"]},
+				energy = {row["energy"]},
+				track_year = {row["track_year"]},
+				track_number = {row["track_number"]},
+				date_created = {row["date_created"]},
+				date_modified = {row["date_modified"]}
+				WHERE id = {row["id"]}
+				""",
+				)
+				mydb.commit()
+
+				cur.execute(f"""
+				UPDATE artists SET 
+				artist_name = "{row["artist_name"]}"
+				""",
+				)
+				mydb.commit()
+
+				# updates artist_id so that it is has the same id when artist names are the same
+				cur.execute(f"""UPDATE artists SET 
+							artist_id=(SELECT artist_id FROM artists 
+							WHERE artist_name = "{row["artist_name"]}")
+							WHERE track_id = {row["track_id"]}""")
+				mydb.commit()
+				
+				cur.execute(f"""
+				UPDATE albums SET 
+				artist_id = {row["artist_id"]}
+				album_name = "{row["album_name"]}"
+				cover = "{row["cover"]}"
+				""",
+				)
+
 					
 
 		
