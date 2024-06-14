@@ -12,9 +12,9 @@ List<DataRow> get_rows(List<dynamic> tracks) {
 
   for (globals.Track track in tracks) {
     String date_created =
-        (track.date_created != null) ? track.date_created : "None";
+        (track.date_created != null) ? track.date_created : "";
     String date_modified =
-        (track.date_modified != null) ? track.date_modified : "None";
+        (track.date_modified != null) ? track.date_modified : "";
 
     // TODO: FIX REPETITIVE CODE BELOW
     row.add(DataRow(onSelectChanged: (value) {}, cells: [
