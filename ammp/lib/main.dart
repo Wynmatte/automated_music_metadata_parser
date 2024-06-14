@@ -6,22 +6,26 @@ import 'package:ammp/home.dart';
 import 'package:flutter/services.dart';
 import 'dart:convert';
 import 'package:ammp/globals.dart' as globals;
+import 'package:sqflite/sqflite.dart';
+import 'package:sqflite_common_ffi/sqflite_ffi.dart';
+import 'package:path/path.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  List<dynamic> data = [];
+  sqfliteFfiInit();
+  databaseFactory = databaseFactoryFfi;
+  // // get sql db
+  // var dbPath = await getDatabasesPath();
+  // String path = join(dbPath, 'tracks.db');
 
-  Future<void> readJson() async {
-    final String response = await rootBundle.loadString("assets/tracks.json");
-    data = await jsonDecode(response);
-  }
+  Database db = await openDatabase('C:/Users/shek/Programming/Automatic_Music_Metadata_Parser/automated_music_metadata_parser/tracks.db');
+  List<globals.Track> tracks = await globals.get_tracks(db);
+  print(tracks);
 
-  await readJson();
-
-  List<DataRow> tracks = getTracks(data);
+  List<DataRow> rows = get_rows(tracks);
   runApp(MaterialApp(
     title: "AMMP",
     // initialRoute: '/loadingScreen',
-    home: HomeScreen(tracks: tracks),
+    home: HomeScreen(rows: rows),
   ));
 }

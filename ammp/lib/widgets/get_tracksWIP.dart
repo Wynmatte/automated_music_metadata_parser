@@ -5,115 +5,82 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:ammp/globals.dart' as globals;
 
-List<DataRow> getTracks(List<dynamic> json) {
+List<DataRow> get_rows(List<dynamic> tracks) {
   // opens tracks.json for writing
-  final globals.TracksFile file = globals.TracksFile();
   
   List<DataRow> row = [];
 
-  for (Map<String, dynamic> track in json) {
+  for (globals.Track track in tracks) {
     String date_created =
-        (track["date_created"] != null) ? track["date_created"] : "None";
+        (track.date_created != null) ? track.date_created : "None";
     String date_modified =
-        (track["date_modified"] != null) ? track["date_modified"] : "None";
+        (track.date_modified != null) ? track.date_modified : "None";
 
     // TODO: FIX REPETITIVE CODE BELOW
     row.add(DataRow(onSelectChanged: (value) {}, cells: [
       DataCell(TextFormField(
         onChanged: (value) {
-          track['title'] = value;
-          String fJson = jsonEncode(json);
-          globals.outputJson = fJson;
-          file.writeTracks(globals.outputJson);
         },
         decoration: InputDecoration(
           border: InputBorder.none,
         ),
-        initialValue: track["title"],
+        initialValue: track.title,
       )),
       DataCell(TextFormField(
         onChanged: (value) {
-          track['artist_name'] = value;
-          String fJson = jsonEncode(json);
-          globals.outputJson = fJson;
-          file.writeTracks(globals.outputJson);
         },
         decoration: InputDecoration(
           border: InputBorder.none,
         ),
-        initialValue: track["artist_name"],
+        initialValue: track.artist_name,
       )),
       DataCell(TextFormField(
         onChanged: (value) {
-          track['album_name'] = value;
-          String fJson = jsonEncode(json);
-          globals.outputJson = fJson;
-          file.writeTracks(globals.outputJson);
         },
         decoration: InputDecoration(
           border: InputBorder.none,
         ),
-        initialValue: track["album_name"],
+        initialValue: track.album_name,
       )),
       DataCell(TextFormField(
         onChanged: (value) {
-          track['track_number'] = value;
-          String fJson = jsonEncode(json);
-          globals.outputJson = fJson;
-          file.writeTracks(globals.outputJson);
         },
         decoration: InputDecoration(
           border: InputBorder.none,
         ),
-        initialValue: track["track_number"],
+        initialValue: track.track_number.toString(),
       )),
       DataCell(TextFormField(
         onChanged: (value) {
-          track['genre'] = value;
-          String fJson = jsonEncode(json);
-          globals.outputJson = fJson;
-          file.writeTracks(globals.outputJson);
         },
         decoration: InputDecoration(
           border: InputBorder.none,
         ),
-        initialValue: track["genre"],
+        initialValue: track.genre,
       )),
       DataCell(TextFormField(
         onChanged: (value) {
-          track['pace'] = value;
-          String fJson = jsonEncode(json);
-          globals.outputJson = fJson;
-          file.writeTracks(globals.outputJson);
         },
         decoration: InputDecoration(
           border: InputBorder.none,
         ),
-        initialValue: track["pace"],
+        initialValue: track.pace.toString(),
       )),
       DataCell(TextFormField(
         onChanged: (value) {
-          track['energy'] = value;
-          String fJson = jsonEncode(json);
-          globals.outputJson = fJson;
-          file.writeTracks(globals.outputJson);
         },
         decoration: InputDecoration(
           border: InputBorder.none,
         ),
-        initialValue: track["energy"],
+        initialValue: track.energy.toString(),
       )),
       DataCell(TextFormField(
         onChanged: (value) {
-          track['track_year'] = value;
-          String fJson = jsonEncode(json);
-          globals.outputJson = fJson;
-          file.writeTracks(globals.outputJson);
         },
         decoration: InputDecoration(
           border: InputBorder.none,
         ),
-        initialValue: track["track_year"],
+        initialValue: track.track_year.toString(),
       )),
       DataCell(Text(
         date_created,
@@ -123,15 +90,11 @@ List<DataRow> getTracks(List<dynamic> json) {
       )),
       DataCell(TextFormField(
         onChanged: (value) {
-          track['album_cover'] = value;
-          String fJson = jsonEncode(json);
-          globals.outputJson = fJson;
-          file.writeTracks(globals.outputJson);
         },
         decoration: InputDecoration(
           border: InputBorder.none,
         ),
-        initialValue: track["album_cover"],
+        initialValue: track.cover,
       )),
     ]));
   }

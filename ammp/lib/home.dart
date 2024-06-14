@@ -4,8 +4,8 @@ import 'package:ammp/widgets/get_tracksWIP.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatefulWidget {
-  List<DataRow> tracks = [];
-  HomeScreen({super.key, required this.tracks});
+  List<DataRow> rows = [];
+  HomeScreen({super.key, required this.rows});
 
   @override
   State<HomeScreen> createState() => _HomeScreenState();
@@ -55,7 +55,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   borderRadius: BorderRadius.all(Radius.circular(15))),
               child: DataTable(
                 columns: cols,
-                rows: widget.tracks,
+                rows: widget.rows,
                 dataRowMinHeight: 12,
                 dividerThickness: 1,
                 showBottomBorder: true,
